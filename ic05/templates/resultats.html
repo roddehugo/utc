@@ -1,0 +1,123 @@
+{% extends "layout.html" %}
+
+{% block title %}Résultats{% endblock %}
+
+{% block content %}
+<div class="container">
+{% filter markdown %}
+
+# Résultats
+---
+
+Ci-dessous, nous répertorions quelques résultats statistiques classiques permettant de mieux comprendre les données sur lesquelles nous travaillons.
+
+## Top 10 des plus gros consommateurs en terme de budget
+
+| buyer_id | quantity | sum     | from                | to                  |
+| -------- | -------- | ------  | ------------------  | ------------------- |
+| 6541     | 2381     | 2135.45 | 2014-09-05 19:39:14 | 2015-06-28 19:26:25 |
+| 7332     | 1562     | 1329.87 | 2014-09-08 18:54:07 | 2015-06-25 20:38:51 |
+| 4816     | 1524     | 1301.14 | 2014-09-03 18:32:45 | 2015-06-19 19:47:18 |
+| 4838     | 963      | 1263.58 | 2014-09-08 18:47:58 | 2015-06-27 18:33:28 |
+| 4923     | 1197     | 1138.63 | 2014-09-08 10:00:34 | 2015-06-24 21:20:29 |
+| 5908     | 978      | 1033.53 | 2014-09-09 16:48:33 | 2015-06-25 10:40:34 |
+| 5463     | 840      | 1033.20 | 2014-09-09 14:27:59 | 2015-06-25 21:06:05 |
+| 5498     | 843      | 1003.45 | 2014-09-03 18:29:41 | 2015-06-30 11:29:07 |
+| 1147     | 2212     | 942.33  | 2014-10-07 19:48:19 | 2015-06-28 19:26:07 |
+| 4932     | 859      | 864.55  | 2014-09-08 10:47:23 | 2015-06-25 19:27:30 |
+
+
+## Top 10 des plus gros consommateurs en terme de quantité
+
+| buyer_id | quantity | sum     | from                | to                  |
+| -------- | -------- | ------  | ------------------  | ------------------- |
+| 71       | 6505     | 700.52  | 2014-09-08 11:27:12 | 2015-06-27 18:43:36 |
+| 6541     | 2381     | 2135.45 | 2014-09-05 19:39:14 | 2015-06-28 19:26:25 |
+| 1147     | 2212     | 942.33  | 2014-10-07 19:48:19 | 2015-06-28 19:26:07 |
+| 7332     | 1562     | 1329.87 | 2014-09-08 18:54:07 | 2015-06-25 20:38:51 |
+| 4816     | 1524     | 1301.14 | 2014-09-03 18:32:45 | 2015-06-19 19:47:18 |
+| 6137     | 1441     | 383.24  | 2014-09-08 19:23:38 | 2015-05-16 20:57:10 |
+| 4923     | 1197     | 1138.63 | 2014-09-08 10:00:34 | 2015-06-24 21:20:29 |
+| 5743     | 992      | 601.95  | 2014-09-10 18:46:55 | 2015-06-25 21:27:42 |
+| 5908     | 808      | 1033.53 | 2014-09-09 16:48:33 | 2015-06-25 10:40:34 |
+| 4838     | 843      | 1263.58 | 2014-09-08 18:47:58 | 2015-06-27 18:33:28 |
+
+## Top 10 des plus grosses transactions en terme de prix
+
+| transaction_id | buyer_id | name                   | asso_name         | datetime            | quantity | total |
+| -------------- | -------- | ---------------------- | ----------------- | ------------------- | -------- | ----- |
+| 386417         | 168      | Menu Perm Plep         |                   | 2014-12-18 18:28:05 | 40       | 60    |
+| 431233         | 5041     | Kinder Maxi            | La Finepic        | 2015-03-12 13:14:40 | 32       | 3.2   |
+| 407535         | 5103     | Barbar Blonde          | Picasso           | 2015-02-17 21:11:53 | 24       | 46.8  |
+| 454541         | 5103     | Grand Cru St Feuillien | B3M               | 2015-03-26 21:33:39 | 24       | 46.8  |
+| 456406         | 7283     | Rochefort 8            | P15 du Turfu      | 2015-03-27 20:24:39 | 24       | 46.8  |
+| 465356         | 5432     | Chimay Bleue           | semaine des poles | 2015-04-02 21:18:55 | 24       | 43.2  |
+| 467353         | 7356     | Rochefort 8            | semaine des poles | 2015-04-03 21:19:38 | 24       | 46.8  |
+| 317759         | 6442     | Duvel                  | Ski UTC           | 2014-10-07 20:20:58 | 24       | 39.6  |
+| 494753         | 6008     | Duvel                  |                   | 2015-04-25 19:40:49 | 24       | 39.6  |
+| 524440         | 4931     | Duvel                  | Charcutc          | 2015-05-20 21:29:44 | 24       | 39.6  |
+
+## Top 10 des produits les plus achetés
+
+| product_id | name             | quantity |
+| ---------- | ---------------- | -------- |
+| 458        | Delirium Tremens | 17073    |
+| 457        | Cuvee des Trolls | 15733    |
+| 466        | Tripel Karmeliet | 13333    |
+| 85         | Cafe             | 12983    |
+| 1395       | Peche Mel Bush   | 11016    |
+| 1401       | Gauloise Rouge   | 9705     |
+| 1397       | Duvel            | 7538     |
+| 3565       | Jo Colina        | 7337     |
+| 1394       | Carolus Triple   | 7129     |
+| 1403       | Barbar Blonde    | 6531     |
+
+## Top 10 des produits générant le plus de revenu
+
+| product_id | name             | revenue  |
+| ---------- | ---------------- | -------- |
+| 458        | Delirium Tremens | 30788.73 |
+| 457        | Cuvee des Trolls | 26616.97 |
+| 466        | Tripel Karmeliet | 24024.30 |
+| 1395       | Peche Mel Bush   | 18735.73 |
+| 1401       | Gauloise Rouge   | 17984.45 |
+| 1394       | Carolus Triple   | 12473.67 |
+| 1397       | Duvel            | 12428.13 |
+| 3796       | Biere            | 12266.40 |
+| 1399       | Chimay Bleue     | 10938.63 |
+| 1403       | Barbar Blonde    | 10457.24 |
+
+## Top 10 des plus grosses permanences en terme de fréquentation
+
+| permanence           | date       | nb_client |
+| -------------------- | ---------- | --------  |
+| ESTU PARKING         | 2015-05-13 | 1487      |
+| Picasso              | 2015-02-16 | 1018      |
+| Vieux CompiBitches   | 2014-11-10 | 950       |
+| Rugby UTC            | 2015-02-26 | 841       |
+| Picemons             | 2014-12-22 | 811       |
+| Imaginarium Festival | 2015-04-21 | 804       |
+| Les Schtroumpfs      | 2015-03-13 | 798       |
+| Comedie Musicale     | 2015-03-20 | 795       |
+| Picasso              | 2015-02-19 | 791       |
+| Picasso              | 2015-02-18 | 782       |
+
+## Top 10 des plus grosses permanences en terme de revenu
+
+| permanence         | date       | revenue  |
+| ------------------ | ---------- | -------- |
+| ESTU PARKING       | 2015-05-13 | 13930.35 |
+| Vieux CompiBitches | 2014-11-10 | 5468.38  |
+| Picasso            | 2015-02-16 | 5192.17  |
+|                    | 2014-09-08 | 4820.93  |
+| Picemons           | 2014-12-22 | 4119.22  |
+| Rugby UTC          | 2015-02-26 | 3987.62  |
+| Picasso            | 2015-02-20 | 3976.90  |
+| P15 du Turfu       | 2015-03-27 | 3968.16  |
+|                    | 2015-01-15 | 3898.39  |
+| SDF                | 2015-05-22 | 3828.47  |
+
+
+{% endfilter %}
+</div>
+{% endblock %}

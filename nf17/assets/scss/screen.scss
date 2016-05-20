@@ -1,0 +1,33 @@
+@import "compass";
+
+#sidebar{
+	margin-top: 30px;
+}
+
+#main-content{
+
+}
+
+.table {
+	
+	tr {
+		th,td{
+			text-align: center;
+			height: 5px;
+			width:12%;
+		}
+		td.film{
+			background-color: rgba(0,0,255,0.5);
+		}
+		td.serie{
+			background-color: rgba(0,255,0,0.5);
+		}
+		td.documentaire{
+			background-color: rgba(255,255,0,0.5);
+		}
+		td.journal{
+			background-color: rgba(255,0,0,0.5);
+		}
+
+	}
+}

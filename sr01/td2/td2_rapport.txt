@@ -1,0 +1,21 @@
+L'objectif du TD est de manipuler les structures, énumérations et les unions, ainsi que les I/O systèmes.
+
+Exercice 1
+Introduction au sizeof pour l'allocation dynamique dans le futur.
+
+Exercice 2
+Définition d'instructions pré-processeurs pour définir les tailles de tableau.
+Initialisation et affichage de tableau avec des boucles for.
+
+Exercice 3
+Introduction aux structures de types pour déclarer des nouveaux types avec typedef.
+Manipulation (lecture/écriture) de structures.
+Passage de structure en paramètre de fonction et fonction retournant une structure.
+
+Exercice 4
+Manipulation de structures, unions, et énumérations pour définir un nouveau type (typedef) plus complexe : un nombre qui peut être un complexe, ou bien un réel, ou encore un entier.
+La manipulation était plus délicate du fait qu'il ne fallait pas se perdre pour enchainer structure, unions et énumérations.
+
+Exercice 5
+Création de liste de structures via un tableau. Manipulation (lecture/écriture) dans le tableau de structures. Il faut être attentif.
+

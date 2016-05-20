@@ -1,0 +1,57 @@
+{% extends "layout.html" %}
+
+{% block title %}A Propos{% endblock %}
+
+{% block content %}
+<div class="container">
+{% filter markdown %}
+
+# A Propos
+---
+
+## Etudiants
+
+{% endfilter %}
+
+<div class="row">
+  <div class="col-md-6 text-center">
+    <h3>Hugo Rodde</h3>
+    <br>
+    <img src="{{ static('assets/img/hugo.jpg') }}" alt="Hugo Rodde">
+    <br>
+    <p class="text-center">Computer Engineering student (Embedded Systems)</p>
+    <p class="text-center"><a href="https://github.com/roddehugo" title="Hugo sur Github">https://github.com/roddehugo</a></p>
+    <p class="text-center">hugo.rodde [at] etu.utc.fr</p>
+  </div>
+  <div class="col-md-6 text-center">
+    <h3>Alexandre Cortyl</h3>
+    <br>
+    <img src="{{ static('assets/img/alexandre.jpg') }}" alt="Alexandre Cortyl">
+    <br>
+    <p class="text-center">Computer Engineer student (Data Scientist)</p>
+    <p class="text-center"><a href="https://github.com/cortylal" title="Alexandre sur Github">https://github.com/cortylal</a></p>
+    <p class="text-center">alexandre.cortyl [at] etu.utc.fr</p>
+  </div>
+</div>
+
+{% filter markdown %}
+
+## Enseignant
+
+{% endfilter %}
+
+<div class="row">
+  <div class="col-md-12 text-center">
+    <h3>Franck Ghitalla</h3>
+    <br>
+    <img src="{{ static('assets/img/franck.jpg') }}" alt="Franck Ghitalla">
+    <br>
+    <p class="text-center">Enseignant chercheur à l'Université de Technologie de Compiègne</p>
+    <p class="text-center"><a href="https://ateliercartographie.wordpress.com" title="Blog">https://ateliercartographie.wordpress.com</a>
+    <p class="text-center"><a href="https://www.utc.fr/ic05" title="Site de l'UV">https://www.utc.fr/ic05</a></p>
+  </div>
+</div>
+
+</div>
+{% endblock %}
+

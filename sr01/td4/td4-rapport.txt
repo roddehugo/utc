@@ -1,0 +1,23 @@
+Rapport du TD n°4 de SR01
+
+But du TD : Nous familiariser et manipuler les Structures de contrôle, les boucles ainsi que les Fonctions et passage de paramètres. 
+
+Exercice 1 : 
+Analyser une chaine de caractères jusqu'au caractère de fin "\0". On utilise fgets au lieu de scanf pour définir la taille maximale de la chaine que l'on souhaite récupérer.
+
+Exercice 2 :
+Cet exercice nous a permi d'utiliser les boucles imbriquées afin d'obtenir l'affichage souhaité, en faisant varier les indices. Ensuite, nous avons séparé les boucles dans des fonctions afin de pouvoir jouer sur la taille et le nombre d'arbre via des paramètres demandés à l'utilisateur.
+
+Exercice 3 :
+Manipulation de matrices (tableau à 2 dimensions) avec une allocation dynamique (malloc) ce qui permet de demander le nombre de ligne et de colonne de M. Pour ce faire, on fait un premier malloc avec le nombre de ligne (ce qui créer un vecteur) et pour chaque élément de ce vecteur on refait un malloc qui correspond à la taille des colonnes.
+Nous avons choisis de remplir la matrice alléatoirement avec la fonction rand(). 
+Pour la partie a) on analyse la matrice en la parcourant et on en tire des propriétés que l'on affiche.
+Pour la partie b) on souhaite juste savoir si la matrice est creuse, et on reporte dans un vecteur les éléments non nuls. Le calcul de l'indice du vecteur se fait par "i*col+j".
+
+Exerice 4 :
+Le jeu des allumettes. Nous n'avions pas à coder la fonction jeu_ordi() qui nous était donnée. La fonction jeu_joueur() permet à l'utilisateur de prendre entre 1 et la prise maximale entrée en paramètre de la fonction.
+On affiche les allumettes avec des "o,|" pour donner un aspect visuel. Dans le corps du programme, on demande à l'utilisateur les paramètres du jeu (tant qu'ils ne sont pas valides il recommence). Tant qu'il reste plus d'une allumettes en jeu on alterne entre l'ordinateur et le joueur  et on affiche à chaque tour le nombre d'allumettes restantes. A la fin l'ordinateur gagne toujours... SAUF si on utilise la "méthode du 4+1" pour une partie avec 10 allumettes, et avec un retrait maximal de 3 allumettes :)
+ 
+Exercice 5 :
+Le jeu de la vie ! La fonction calculvoisinvivant nous est partiellement fourni. La grille est considérée comme torique. Nous avons réalisé nos deux fonctions d'initialisations : une qui le fait aléatoirement et l'autre qui nous servait à initialiser des structures. Dans le corps du programme on initialise le damier, puis on le copie (memcpy()) dans le damier à t+1.
+Ensuite on fait volontairement une boucle infinie qui va calculer grâce à la fonction calculvoisinvivant et aux règles du jeu le damier à t+1 à partir du damier initial (à t). On affiche le damier à chaque itération.

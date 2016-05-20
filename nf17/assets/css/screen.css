@@ -1,0 +1,27 @@
+/* line 3, ../scss/screen.scss */
+#sidebar {
+  margin-top: 30px;
+}
+
+/* line 14, ../scss/screen.scss */
+.table tr th, .table tr td {
+  text-align: center;
+  height: 5px;
+  width: 12%;
+}
+/* line 19, ../scss/screen.scss */
+.table tr td.film {
+  background-color: rgba(0, 0, 255, 0.5);
+}
+/* line 22, ../scss/screen.scss */
+.table tr td.serie {
+  background-color: rgba(0, 255, 0, 0.5);
+}
+/* line 25, ../scss/screen.scss */
+.table tr td.documentaire {
+  background-color: rgba(255, 255, 0, 0.5);
+}
+/* line 28, ../scss/screen.scss */
+.table tr td.journal {
+  background-color: rgba(255, 0, 0, 0.5);
+}

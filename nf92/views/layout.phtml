@@ -1,0 +1,88 @@
+
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8">
+    <title><?php echo $title_for_layout; ?></title>
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <!-- Le styles -->
+
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/bootstrap-responsive.css" rel="stylesheet">
+    <link href="css/<?php echo $css_for_layout; ?>.css" rel="stylesheet">
+
+    <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <!-- Fav and touch icons -->
+    <link rel="shortcut icon" href="http://twitter.github.com/bootstrap/assets/ico/favicon.ico">
+
+  </head>
+
+  <body>
+
+  <div id="loading-zone">
+    <div class="center"><center> <img src="img/loader.gif" alt="loader"></center></div>
+  </div>
+    <div id="main" class="container-narrow">
+    <?php if (basename($_SERVER ['SCRIPT_NAME']) == "index.php"): ?>
+      <div class="masthead">
+        <ul class="nav nav-pills pull-right">
+          <li class="active"><a href="index.php">Accueil</a></li>
+          <li><a href="login.php">Se connecter</a></li>
+        </ul>
+        <h3 class="muted"><?php echo $title_for_layout; ?></h3>
+
+      </div>
+
+      <hr>
+
+      <div class="jumbotron">
+        <h1>Etudiantes, étudiants,</h1>
+        <p class="lead"> il est temps de choisir qui sera Miss or Mister NF92...</p>
+        <!-- <a class="btn btn-large btn-success" href="#">Sign up today</a> -->
+
+      </div>
+      <hr>
+    <?php else: ?>
+      <div class="masthead">
+        <h3 class="muted">Election de Miss &amp; Mister NF92</h3>
+      </div>
+      <div class="span12">
+        <?php require "elements/admin_menu.php"; ?>
+      </div>
+    <?php endif ?>
+
+
+      <div id="main" class="row-fluid marketing">
+        <notification>
+          
+        </notification>
+       <?php echo $content_for_layout; ?>
+      </div>
+
+      <hr>
+
+      <div class="footer">
+        <p>&copy; NF92 A12</p>
+
+      </div>
+
+    </div> <!-- /container -->
+    
+    <script type="text/javascript" src="scripts/jquery.js"></script>
+    <script type="text/javascript" src="scripts/bootstrap-transition.js"></script>
+    <script type="text/javascript" src="scripts/bootstrap-alert.js"></script>
+    <script type="text/javascript" src="scripts/bootstrap-modal.js"></script>
+    <script type="text/javascript">
+      <?php echo isset($inline_script) ? $inline_script : ""; ?>
+    </script>
+    <script type="text/javascript" src="scripts/<?php echo $script_for_layout;?>.js"></script>
+  </body>
+
+</html>
+

@@ -1,0 +1,32 @@
+Dans la première partie du TD nous avons révisé les commandes de bases du système UNIX :
+	Création et édition de fichier
+	Compilation et execution de programme
+	Gestion des processus
+	Utilisation du manuel de commande
+
+Dans la deuxième partie du TD nous avons réalisé des exercices :
+Hello World
+Dans le fichier hello1.c on a introduit les entrées/sorties machines avec la fonction printf. Un simple Hello Word, le classique de la programmation !
+Ceci a permi de voir la strucutre d'un programme écrit en C (en-têtes, déclarations, fonction main...).
+
+Exercice 1
+Cet exerice avait pour but de nous faire manipuler le tableau des caractères ascii.
+On affiche dans la colonne de gauche le numéro du code ascii et dans la colonne de droite, sa valeur.
+Dans la version a, on affiche les chiffres de 0 à 9 et les minuscules. Dans la version b on affiche les majuscules en plus.
+Jusqu'ici la conversion se faisait dans le sens : nombre entier -> caractère.
+Dans la version c, on affiche les mêmes données mais la conversion se faisait dans le sens : caractère -> nombre entier.
+
+Exercice 2
+Cet exercice avait pour but de nous faire manipuler les entrées systèmes (scanf) ainsi que les opérations arithmétiques.
+On peut faire une initialisation et une déclaration de plusieurs variables de même type sur une seule instruction.Pour lire une donnée entrée par l'utilisateur on utilise la fonction scanf. 
+Pour ce faire il faut fournir en deuxième argument l'adresse d'une variable (ici i2). Le passage de l'adresse ce fait grâce au symbole "&".
+Si on enlève le "&", le programme veut faire le calcul de somme entre i1 et i2 avec la valeur stockée à l'adresse fournie par l'utilisateur. A moins de connaitre l'adresse mémoire d'un nombre entier, cela ne peut pas fonctionner.
+
+Exercice PGCD
+Cet exercice avait pour but de nous faire manipuler les fonctions.
+On a vu comment déclarer une fonction. A moins d'utiliser un fichier header (.h) ou des en-têtes, il faut déclarer la fonction avant le main pour pouvoir l'utiliser par la suite.
+Par ailleurs, dans l'utilisation des boucles, l'instruction break n'est pas recommandé pour un problème de validité du test du programme (on ne peut pas determiner la complexité de l'algorithme).
+Un autre algorithme serait préférable.
+
+Conclusion
+Ce TD nous a permi d'avoir une première approche du langage C.

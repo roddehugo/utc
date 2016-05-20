@@ -1,0 +1,20 @@
+Rapport du TD n°3 de SR01
+
+But du TD : Manipulation de tableaux, pointeurs, expressions et opérateurs
+
+Exercice 1
+Nous avons vu qu'il y a deux façons de manipuler un tableau. Soit avec les indices, soit avec les pointeurs. En fait les tableaux sont déjà des pointeurs avec un espace mémoire alloué à l'initialisation.
+
+Exercice 2
+Nous avons manipulé un tableau de chaines de caractères. Nous avons mis en place des boucle pour demander les informations à l'utilisateur afin de sécuriser l'entrée des données au programme.
+Pour calculer le jour nous avons utiliser l'opérateur "modulo" pour rapporter la date entrée sur une semaine.
+
+Exercice 3
+Nous avons manipulé les formats d'écriture et de lecture pour les nombres et les chaines de caractères.
+Nous avons découvert comment être plus précis dans nos requêtes envers l'utilisateur et comment afficher les informations de façon plus esthétique.
+
+Exercice 4
+On a revu le tableau de priorité des opérateurs afin de prédire quel sera le résultat de chaque fonction de l'énoncé.
+Nous avons vu des opérateurs moins classiques tels que le tilde (~) opérateur binaire qui inverse les bits d'un nombre et l'opérateur ternaire afin de faire une affectation avec une condition plus rapidement qu'en utilisant un bloc if/else.
+L'utilisation de nombreux opérateurs sur une même ligne rend la lecture par un tiers très délicate. Il faut penser aux priorités entre les opérateurs.
+

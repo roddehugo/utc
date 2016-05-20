@@ -1,0 +1,13 @@
+BL01
+Sciences Biologiques Pour L'Ingénieur
+6
+CS
+BL10
+Structures Et Physicochimie Des Molécules Biologiques
+6
+CS
+BL22
+Microbiologie Et Biologie Moléculaire
+6
+CS
+CM01

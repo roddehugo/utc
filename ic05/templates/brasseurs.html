@@ -1,0 +1,136 @@
+{% extends "layout.html" %}
+
+{% block title %}Brasseurs{% endblock %}
+
+{% block head %}
+
+<link href="{{ static('assets/css/slider.css') }}" rel="stylesheet">
+
+{% endblock %}
+
+{% block content %}
+<div class="container">
+{% filter markdown %}
+
+# Brasseurs
+---
+
+Nous présentons les résultats graphiques associés aux Brasseurs et aux bières du Pic'asso.
+
+Le jeu de données possède les meta-données suivantes :
+
+* `Network Diameter` : 7
+* `Radius` : 4
+* `Average distance` : 2,75
+* `Modularity Classes` : 0,266
+* `Number of classes` : 4
+
+## Force Atlas
+
+Paramètres de la visualisation :
+
+* `Disposition` : Force Atlas 2
+* `Colorisation` : Modularity Classes
+* `Taille des nœuds` : Betweeness Centrality
+
+[ ![Force Atlas Layout]({{ static('public/graphs/brasseurs/forceatlas.png') }}) ]({{ url_for('graph', name='brasseurs', layout='forceatlas') }})
+
+Nous sommes alors en mesure de distinguer plusieurs catégories de bières, avec les brasseries associées. Nous détaillons par la suite la décomposition correspondante, qui permet d’identifier les différents types de bières vendus au Pic'Asso.
+
+Il est tout particulièrement satisfaisant de constater que la spatialisation Force Atlas 2 a été en mesure d’organiser les bières (et brasseries associées) en 4 catégories logiques en terme de type de bière. C’est en effet les 4 catégories principales de bière en vente au Pic'Asso !
+
+### Modularity Classes
+
+{% endfilter %}
+<div class="row">
+  <div class="col-md-12">
+    <p>Carousel des différentes Modularity Class</p>
+    <div class="slidewrap2">
+      <ul class="slider">
+        <li class="slide">
+          <div class="row">
+            <div class="col-md-8">
+              <img src="{{ static('public/graphs/brasseurs/class0.png') }}" alt="Class 0">
+            </div>
+            <div class="col-md-4">
+              {% filter markdown %}
+### Bières fruitées
+              {% endfilter %}
+            </div>
+          </div>
+        </li>
+        <li class="slide">
+          <div class="row">
+            <div class="col-md-8">
+              <img src="{{ static('public/graphs/brasseurs/class1.png') }}" alt="Class 1">
+            </div>
+            <div class="col-md-4">
+              {% filter markdown %}
+### Bières ambrées
+              {% endfilter %}
+            </div>
+          </div>
+        </li>
+        <li class="slide">
+          <div class="row">
+            <div class="col-md-8">
+              <img src="{{ static('public/graphs/brasseurs/class2.png') }}" alt="Class 2">
+            </div>
+            <div class="col-md-4">
+              {% filter markdown %}
+### Bières brunes
+              {% endfilter %}
+            </div>
+          </div>
+        </li>
+        <li class="slide">
+          <div class="row">
+            <div class="col-md-8">
+              <img src="{{ static('public/graphs/brasseurs/class3.png') }}" alt="Class 3">
+            </div>
+            <div class="col-md-4">
+              {% filter markdown %}
+### Bières blondes
+              {% endfilter %}
+            </div>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+{% filter markdown %}
+
+## Layered
+
+Paramètres de la visualisation :
+
+* `Disposition` : Layered
+* `Colorisation` : Beer type
+* `Taille des nœuds` : Betweeness Centrality
+* `Couches` : Modularity Class
+
+[ ![Layered Layout]({{ static('public/graphs/brasseurs/layered.png') }}) ]({{ url_for('graph', name='brasseurs', layout='layered') }})
+
+Nous sommes alors en mesure de constater que les bières de type `Blanches` sont intégrées dans la classe `Bières fruitées`.
+
+{% endfilter %}
+</div>
+{% endblock %}
+
+
+{% block foot %}
+<script src="{{ static('assets/js/slider.js') }}"></script>
+<script>
+$(document).ready(function() {
+  $('.slidewrap2').carousel({
+    slider: '.slider',
+    slide: '.slide',
+    addNav: false,
+    addPagination: true,
+    speed: 300 // ms.
+  });
+});
+</script>
+{% endblock %}

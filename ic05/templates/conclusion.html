@@ -1,0 +1,34 @@
+{% extends "layout.html" %}
+
+{% block title %}Conclusion{% endblock %}
+
+{% block content %}
+<div class="container">
+{% filter markdown %}
+
+# Conclusion
+---
+
+Ce projet nous aura permis de prendre en main l'outil Gephi, aujourd'hui incontournable dans le monde de la représentation des données et en cartographie.
+Cependant ce dernier est encore en stade de développement et s'avère peu stable pour un usage en entreprise.
+
+Nous avons apprécié les multiples plugins proposés par la communauté. Ces derniers nous ont permi d'exporter nos graphs en format web avec l'export SigmaJS.
+
+Notre étude aura permis de catégoriser les différentes bières vendues au Pic'Asso, mais aura surtout rendu possible la mise en évidence de clusters de consommateurs suivant leurs habitudes de consommations.
+Les diverses visualisations produites permettent à la fois de confirmer certaines informations connues, mais ont aussi rendu possible l'identification de nouvelles choses. En cela, le projet a atteint ses objectifs et est une réussite !
+
+Mais encore beaucoup reste à faire, en commençant notamment par :
+
+* Étendre l'étude des consommations aux produits autre que la bière
+* Exploiter des données relatives à la météo
+* Approfondir l'identification de cluster clients
+
+Nous espérons avoir ouvert la voie qui permettra à d'autres étudiants de poursuivre une analyse plus poussée des données de consommation au Pic'Asso.
+
+Si vous souhaitez obtenir de plus amples informations sur le travail réalisé, n'hésitez pas à prendre contact avec nous dans la page A propos.
+
+En particulier, notre travail est disponible sur [Gitlab](http://gitlab.utc.fr/roddehug/ic05-picasso) et peut être partagé sur demande.
+
+{% endfilter %}
+</div>
+{% endblock %}

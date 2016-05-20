@@ -1,0 +1,49 @@
+
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8">
+    <title><?php echo $title_for_layout; ?></title>
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <!-- Le styles -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/bootstrap-responsive.css" rel="stylesheet">
+    <link href="css/<?php echo $css_for_layout; ?>.css" rel="stylesheet">
+
+    <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <!-- Fav and touch icons -->
+    <link rel="shortcut icon" href="http://twitter.github.com/bootstrap/assets/ico/favicon.ico">
+
+  </head>
+
+  <body>
+    <div class="container">
+        <?php 
+        require "notif.php";  
+        ?>
+      <form class="form-signin" action="login.php" method="post">
+        <h2 class="form-signin-heading">Connectez-vous</h2>
+        <div class="input-prepend">
+                <span class="add-on">Login</span>
+                <input class="span2" id="prependedInput" name="data[login]" type="text" placeholder="Login">
+        </div>
+        <div class="input-prepend">
+                <span class="add-on">Password</span>
+                <input class="span2" id="prependedInput" name="data[pass]" type="password" placeholder="Password">
+        </div>
+        <input class="btn btn-large btn-primary" value="Se connecter" type="submit">
+
+      </form>
+
+    </div> <!-- /container -->
+
+  </body>
+
+</html>
+

@@ -1,0 +1,19 @@
+teststring : teststring.o mystrupdown.o mystrinv.o mystrchrn.o mystrncpy.o mystrncat.o mystrlen.o
+	gcc -o teststring teststring.o mystrupdown.o mystrinv.o mystrchrn.o mystrncpy.o mystrncat.o mystrlen.o
+
+teststring.o : teststring.c mystrupdown.h mystrinv.h mystrchrn.h mystrncpy.h mystrncat.h mystrlen.h
+	gcc -c teststring.c
+mystrupdown.o : mystrupdown.c mystrupdown.h
+	gcc -c mystrupdown.c
+mystrinv.o : mystrinv.c mystrinv.h
+	gcc -c mystrinv.c
+mystrchrn.o : mystrchrn.c mystrchrn.h
+	gcc -c mystrchrn.c
+mystrncpy.o : mystrncpy.c mystrncpy.h
+	gcc -c mystrncpy.c
+mystrncat.o : mystrncat.c mystrncat.h
+	gcc -c mystrncat.c
+mystrlen.o : mystrlen.c mystrlen.h
+	gcc -c mystrlen.c
+clean :
+	rm -f teststring teststring.o mystrupdown.o mystrinv.o mystrchrn.o mystrncpy.o mystrncat.o mystrlen.o

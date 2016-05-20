@@ -1,0 +1,10 @@
+OBJS = teststring.o mystrupdown.o mystrinv.o mystrchrn.o mystrncpy.o mystrncat.o mystrlen.o
+CC = gcc
+
+teststring : $(OBJS)
+	$(CC) -o $@ $(OBJS)
+
+teststring.o : teststring.c mystrupdown.h mystrinv.h mystrchrn.h mystrncpy.h mystrncat.h mystrlen.h
+
+clean :
+	rm -f teststring $(OBJS)

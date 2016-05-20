@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8">
+    <title><?php echo $title_for_layout; ?></title>
+    <meta name="description" content="Système D'administration de chaînes TV dans le cadre de l'UV NF17 à l'UTC">
+    <meta name="author" content="Hugo Rodde <hugo.rodde@etu.utc.fr>">
+
+    <!-- Le styles -->
+
+    <link href="assets/css/bootstrap.css" rel="stylesheet">
+    <link href="assets/css/bootstrap-responsive.css" rel="stylesheet">
+    <link href="assets/css/style.css" rel="stylesheet">
+    <link href="assets/css/screen.css" rel="stylesheet">
+
+    <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+      <script type="text/javascript">alert("Le site est optimisé pour fonctionner sur Mozilla Firefox et Google Chrome. Privilégiez l'un de ces navigateurs pour une navigation plus confortable. Merci");</script>
+    <![endif]-->
+
+  </head>
+
+  <body>
+
+    <!-- Part 1: Wrap all page content here -->
+    <div id="wrap">
+
+      <!-- Fixed navbar -->
+      <div class="navbar navbar-fixed-top">
+        <div class="navbar-inner">
+          <div class="container">
+            <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="brand" href="index.php" >Administration des chaines</a>
+            <div class="nav-collapse collapse">
+              <ul class="nav">
+                <li class=""><a href="index.php">Accueil</a></li>
+                <li class=""><a href="statistiques.php">Statistiques</a></li>
+                <li class="dropdown">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown">Ajouter Chaine <b class="caret"></b></a>
+                  <ul class="dropdown-menu">
+                        <li class="nav-header">Chaine</li>
+                        <li><a href="#" class="ajaxAdd" data-value="Directeur">Un directeur</a></li>
+                        <li><a href="#" class="ajaxAdd" data-value="SiegeSocial">Un siège social</a></li>
+                        <li><a href="#" class="ajaxAdd" data-value="MoyenDiffusion">Un moyen de diffusion</a></li>
+                        <li><a href="#" class="ajaxAdd" data-value="Chaine">Une chaîne Télé</a></li>
+                  </ul>
+                </li>
+                <li class="dropdown">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown">Ajouter Grille <b class="caret"></b></a>
+                  <ul class="dropdown-menu">
+                        <li class="nav-header">Grille</li>
+                        <li><a href="#" class="ajaxAdd" data-value="GrilleProgramme">Une grille des programmes</a></li>
+                        <li><a href="#" class="ajaxAdd" data-value="Creneau">Un creneau</a></li>
+                        <li><a href="#" class="ajaxAdd" data-value="Public">Un public visé</a></li>
+                  </ul>
+                </li>
+                <li class="dropdown">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown">Ajouter Emission <b class="caret"></b></a>
+                  <ul class="dropdown-menu">
+                        <li class="nav-header">Emission</li>
+                        <li><a href="#" class="ajaxAdd" data-value="Studio">Un studio</a></li>
+                        <li><a href="#" class="ajaxAdd" data-value="ThemeDocumentaire">Un thème de documentaire</a></li>
+                        <li><a href="#" class="ajaxAdd" data-value="GenreSerie">Un genre de série</a></li>
+                        <li><a href="#" class="ajaxAdd" data-value="Film">Un film</a></li>
+                        <li><a href="#" class="ajaxAdd" data-value="Documentaire">Un documentaire</a></li>
+                        <li><a href="#" class="ajaxAdd" data-value="Serie">Une série</a></li>
+                        <li><a href="#" class="ajaxAdd" data-value="Journal">Un journal</a></li>
+                        <li><a href="#" class="ajaxAdd" data-value="PublicVise">Le public</a></li>
+                  </ul>
+                </li>
+                <li class="dropdown">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown">Ajouter Personne <b class="caret"></b></a>
+                  <ul class="dropdown-menu">
+                        <li class="nav-header">Personnes</li>
+                        <li><a href="#" class="ajaxAdd" data-value="Personne">Une personne</a></li>
+                        <li><a href="#" class="ajaxAdd" data-value="Participe">Des participations à une emission</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </div><!--/.nav-collapse -->
+          </div>
+        </div>
+      </div>
+
+      <!-- Begin page content -->
+      <div class="container-fluid">
+
+        <?php echo $content_for_layout; ?>
+
+      </div>
+
+      <div id="push"></div>
+    </div>
+
+    <div id="footer">
+      <div class="container">
+        <p class="muted credit">&copy; NF17 P13 - Jonathan Dekhtiar, Hugo Rodde, Nicolas Wavrant, Samuel Favrichon</p>
+      </div>
+    </div>
+
+    <div id="myModal" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true"><i class="icon-remove"></i></button>
+        <h3 id="myModalLabel"></h3>
+      </div>
+      <div class="modal-body">
+
+      </div>
+      <div class="modal-footer">
+        <button class="btn" data-dismiss="modal" aria-hidden="true">Fermer</button>
+      </div>
+    </div>
+
+
+    <script type="text/javascript" src="assets/js/jquery.js"></script>
+    <script type="text/javascript" src="assets/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="assets/js/index.js"></script>
+  </body>
+
+</html>
+

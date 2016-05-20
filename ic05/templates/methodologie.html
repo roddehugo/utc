@@ -1,0 +1,82 @@
+{% extends "layout.html" %}
+
+{% block title %}Méthodologie{% endblock %}
+
+{% block content %}
+<div class="container">
+{% filter markdown %}
+
+# Méthodologie
+---
+
+Dans un premier temps, nous présenterons comment nous avons traité les données fournies par le Pic'asso.
+
+Puis, nous ferons figurer les visualisations les plus parlantes et les représentations les plus intéressantes de notre étude.
+
+![Méthodologie]({{ static('public/images/methodologie.png') }})
+
+## Données fournies
+
+Le Pic'asso nous a fourni un fichier CSV contenant 253 898 entrées correspondant aux transactions.
+
+Une transaction est définie ainsi : l'achat par un même consommateur d'un produit et d'un seul avec une quantité supérieure ou égale à 1.
+
+Ces données brutes ne sont pas très pratiques en l'état. On distingue mal les noeuds et les liens. Nous avons donc choisi de transformer ces données en fichier SQL. Ce dernier peut alimenter une base de données relationnelle de type MySQL. Il est de même avec les données fournies par l'API de météo.
+
+A terme, nous disposons d'une base de données indexées dans laquelle nous pouvons effectuer des requêtes complexes grâce au language SQL.
+
+Cette base de donnée présente également l'avantage d'être facilement exportable, modifiable, dupliquable...
+
+Finalement, elle est nettement plus exploitable qu'un seul et unique fichier text de type CSV avec plus de 250 000 lignes et pesant près de 20 Mo.
+
+En effet, SQL permet de créer des `Vues`. Celles-ci sont en fait des requêtes dont le resultat est sauvegarder dans une table et mis à jour en temps réel.
+Ainsi, Gephi proposant d'importer les données depuis deux tables SQL `nodes` et `edges`, nous pouvons déterminer autant de `Vues` que necessaire pour travailler sur des sous-ensembles du jeu de données complet.
+
+On gagne en modularité et clareté.
+
+
+## Extrait du fichier de base
+
+| Transaction ID | Date       | Time     | Buyer ID | Product ID | Product Name     | Category ID | Category Name   | Unit. Price | Quantity | Total Price |
+| -------------- | ---------- | -------- | -------- | ---------- | ---------------- | ----------- | --------------- | ----------- | -------- | ----------- |
+| 578782         | 30/06/2015 | 11:29:07 | 5498     | 22         | Ice Tea Peche    | 3           | Softs           | 0.7         | 1.0      | 0.7         |
+| ...            | ...        | ...      | ...      | ...        | ...              | ...         | ...             | ...         | ...      | ...         |
+| 274656         | 03/09/2014 | 18:29:41 | 5498     | 457        | Cuvee des Trolls |11           | Bieres pression | 1.69        | 1.0      | 1.69        |
+
+
+## Programme de conversion
+
+Nous avons donc développé un programme en Python 2.7 afin de lire le fichier CSV et générer les requêtes SQL correspondantes.
+
+Ce programme est très modulaire, il utilise les bonnes pratiques de la programmation orientée objet afin de pouvoir réutiliser au maximum les procédures écrites.
+
+Il est disponible à l'adresse suivante : [Projet Git IC05 Pic'asso](https://gitlab.utc.fr/roddehug/ic05-picasso)
+
+### Modules
+
+![Python packages]({{ static('public/images/packages.png') }})
+
+Le module principal est le module `app`.
+
+Nous avons découpé le programme en fonctionnalités ou modules:
+
+* `exceptions` qui rajoute des nouvelles exceptions particulières à nos processus de transformation.
+* `logger` qui permet de paramétrer le module de logging afin de pouvoir debugger l'application.
+* `models` qui contient tous les modèles de notre base de données afin de générer les requêtes SQL.
+* `abstract` qui permet d'ajouter un niveau d'abstraction afin de factoriser le code.
+* `mergers` qui permet de fusionner plusieurs fichiers en un seul à la sortie (pour les données météo contenues dans plusieurs JSON).
+* `parsers` qui permet de parcourir un fichier et de créer les objets correspondants en language SQL (pour les données CSV).
+* `scrapers` qui permet d'effetuer des requêtes HTTP vers un site afin de récupérer du contenu et l'enregistre dans un fichier CSV.
+
+### Classes
+
+![Python classes]({{ static('public/images/classes.png') }})
+
+
+### Base de données
+
+![Schema UML de la base de données]({{ static('public/images/database.png') }})
+
+{% endfilter %}
+</div>
+{% endblock %}

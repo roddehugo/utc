@@ -1,0 +1,205 @@
+{% extends "layout.html" %}
+
+{% block title %}Consommateurs{% endblock %}
+
+{% block head %}
+
+<link href="{{ static('assets/css/slider.css') }}" rel="stylesheet">
+
+{% endblock %}
+
+{% block content %}
+<div class="container">
+{% filter markdown %}
+
+# Consommateurs
+---
+
+Nous présentons les résultats graphiques associés aux Consommateurs et aux bières du Pic'asso.
+
+Le jeu de données possède les meta-données suivantes :
+
+* `Network Diameter` : 4
+* `Radius` : 3
+* `Average distance` : 2,18
+* `Modularity Classes` : 0,396
+* `Number of classes` : 11
+
+## OpenOrd
+
+Paramètres de la visualisation :
+
+* `Disposition` : OpenOrd
+* `Colorisation` : Modularity Classes
+* `Taille des nœuds` : Degree
+
+[ ![OpenOrd Layout]({{ static('public/graphs/consommateurs/openord.png') }}) ]({{ url_for('graph', name='consommateurs', layout='openord') }})
+
+On est alors capable de distinguer plusieurs catégories de bières, avec les consommateurs associées. Cette clusterisation en 11 groupes permet d'identifier différents profils de consommateurs, suivant leurs goûts et leurs habitudes de consommations.
+
+### Modularity Classes
+
+{% endfilter %}
+<div class="row">
+  <div class="col-md-12">
+    <p>Carousel des différentes Modularity Class</p>
+    <div class="slidewrap2">
+      <ul class="slider">
+        <li class="slide">
+          <div class="row">
+            <div class="col-md-8">
+              <img src="{{ static('public/graphs/consommateurs/class0.png') }}" alt="Class 0">
+            </div>
+            <div class="col-md-4">
+              {% filter markdown %}
+### Cidres et bières blanches
+              {% endfilter %}
+            </div>
+          </div>
+        </li>
+        <li class="slide">
+          <div class="row">
+            <div class="col-md-8">
+              <img src="{{ static('public/graphs/consommateurs/class1.png') }}" alt="Class 1">
+            </div>
+            <div class="col-md-4">
+              {% filter markdown %}
+### Bières St-Feuillien Grand Cru
+              {% endfilter %}
+            </div>
+          </div>
+        </li>
+        <li class="slide">
+          <div class="row">
+            <div class="col-md-8">
+              <img src="{{ static('public/graphs/consommateurs/class2.png') }}" alt="Class 2">
+            </div>
+            <div class="col-md-4">
+              {% filter markdown %}
+### Bières fruitées
+              {% endfilter %}
+            </div>
+          </div>
+        </li>
+        <li class="slide">
+          <div class="row">
+            <div class="col-md-8">
+              <img src="{{ static('public/graphs/consommateurs/class3.png') }}" alt="Class 3">
+            </div>
+            <div class="col-md-4">
+              {% filter markdown %}
+### Bières Duvel
+              {% endfilter %}
+            </div>
+          </div>
+        </li>
+        <li class="slide">
+          <div class="row">
+            <div class="col-md-8">
+              <img src="{{ static('public/graphs/consommateurs/class5.png') }}" alt="Class 5">
+            </div>
+            <div class="col-md-4">
+              {% filter markdown %}
+### Bières fortes
+              {% endfilter %}
+            </div>
+          </div>
+        </li>
+        <li class="slide">
+          <div class="row">
+            <div class="col-md-8">
+              <img src="{{ static('public/graphs/consommateurs/class6.png') }}" alt="Class 6">
+            </div>
+            <div class="col-md-4">
+              {% filter markdown %}
+### Bières Scotch Silly
+              {% endfilter %}
+            </div>
+          </div>
+        </li>
+        <li class="slide">
+          <div class="row">
+            <div class="col-md-8">
+              <img src="{{ static('public/graphs/consommateurs/class7.png') }}" alt="Class 7">
+            </div>
+            <div class="col-md-4">
+              {% filter markdown %}
+### Bières Cuvée des Trolls
+              {% endfilter %}
+            </div>
+          </div>
+        </li>
+        <li class="slide">
+          <div class="row">
+            <div class="col-md-8">
+              <img src="{{ static('public/graphs/consommateurs/class8.png') }}" alt="Class 8">
+            </div>
+            <div class="col-md-4">
+              {% filter markdown %}
+### Bières Délirium Tremens
+              {% endfilter %}
+            </div>
+          </div>
+        </li>
+        <li class="slide">
+          <div class="row">
+            <div class="col-md-8">
+              <img src="{{ static('public/graphs/consommateurs/class9.png') }}" alt="Class 9">
+            </div>
+            <div class="col-md-4">
+              {% filter markdown %}
+### Bières blondes
+              {% endfilter %}
+            </div>
+          </div>
+        </li>
+        <li class="slide">
+          <div class="row">
+            <div class="col-md-8">
+              <img src="{{ static('public/graphs/consommateurs/class10.png') }}" alt="Class 10">
+            </div>
+            <div class="col-md-4">
+              {% filter markdown %}
+### Bières brunes
+              {% endfilter %}
+            </div>
+          </div>
+        </li>
+        <li class="slide">
+          <div class="row">
+            <div class="col-md-8">
+              <img src="{{ static('public/graphs/consommateurs/class11.png') }}" alt="Class 11">
+            </div>
+            <div class="col-md-4">
+              {% filter markdown %}
+### Bières Barbar
+              {% endfilter %}
+            </div>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+{% filter markdown %}
+
+{% endfilter %}
+</div>
+{% endblock %}
+
+
+{% block foot %}
+<script src="{{ static('assets/js/slider.js') }}"></script>
+<script>
+$(document).ready(function() {
+  $('.slidewrap2').carousel({
+    slider: '.slider',
+    slide: '.slide',
+    addNav: false,
+    addPagination: true,
+    speed: 300 // ms.
+  });
+});
+</script>
+{% endblock %}

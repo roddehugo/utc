@@ -1,0 +1,52 @@
+{% extends "layout.html" %}
+
+{% block title %}Présentation{% endblock %}
+
+{% block content %}
+<div class="container">
+{% filter markdown %}
+
+# Présentation
+---
+
+## Introduction
+
+Dans le cadre de l'UV IC05 Cartographie des données, nous avons choisi de travailler sur les données relatives au foyer étudiant de notre école : le Pic'Asso.
+
+## Le foyer
+
+Le Pic'Asso est le foyer étudiant de l'UTC. C'est un espace de rencontre ouvert de 10 heures à 22 heures aux étudiants et au personnel de l'UTC. De nombreux services y sont proposés, avec notamment :
+
+* Vente de boissons fraîches (non alcoolisées) et de boissons chaudes
+* Vente de nourriture (viennoiseries le matin, repas préparés par des associations le midi, assiettes le soir, snacks toute la journée, etc.)
+* Exploitation de la licence II le soir de 18h30 à 21h30
+* Divertissements en tout genre mis à disposition des étudiants (jeux de cartes, jeux de sociétés, billard, baby-foot, jeux-vidéos, boules de pétanque, etc.)
+* Une ambiance conviviale réservée à la détente, à la créativité et à la prise d'initiatives
+
+Le foyer étudiant, centre de la vie associative, est un lieu de communication et de recrutement par excellence pour les associations.
+
+C'est aussi un endroit d'expression et de réflexion sur l'organisation de la vie « du campus », point de rendez-vous où ont lieu des échanges culturels.
+
+
+## Données disponibles
+
+Nous avons donc collecté l'ensemble des transactions réalisées tout au long de l'année universitaire 2015 (du 1er septembre 2014 au 30 juin 2015).
+
+Pour respecter la confidentialité des clients du Pic'Asso, ces données ont été anonymisée : dans un premier temps, il est impossible d'associer un nom aux transactions, les acheteurs étant seulement identifiés par un ID.
+
+A cela, nous avons rajouté des données météo obtenues à l'aide de l'API de [World Weather Online](https://developer.worldweatheronline.com) et des informations sur les permanences tenues au foyer sur cette même période.
+
+
+## Objectifs
+
+Les objectifs de notre étude sont :
+
+* Mieux comprendre la consommation au sein de notre foyer
+* Identifier des clusters de clients et de produits
+* Remarquer des corrélations entre consommations, permanences et conditions météorologique
+
+Le principal bénéficiaire de cette étude est bien entendu l'association en charge de la gestion du foyer, mais chaque étudiant pourrait aussi apprécier de mieux connaître et comprendre ses goûts et ses habitudes de consommation.
+
+{% endfilter %}
+</div>
+{% endblock %}

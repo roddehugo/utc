@@ -1,0 +1,4 @@
+Rang fd : 1
+apres dup
+Rang : 3
+Le 4eme printf...

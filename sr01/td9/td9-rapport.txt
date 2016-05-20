@@ -1,0 +1,39 @@
+Rapport du TD n°9 de SR01
+
+But du TD :
+Utiliser les appels système pour executer des commandes dans le shell. Envoi du signal de terminaison d'un programme au shell.
+
+Exercice 1 : Sortie d'un programme
+
+On récupère le code d'arret dans le script shell script.sh en faisant un if basique. 
+On constate bien que suivant si le programme se termine avec Succès ou Echec, le résultat est différent.
+
+La fonction atexit() enregistre la fonction donnée pour que celle-ci soit
+automatiquement invoquée lorsque le processus se termine normalement avec
+exit() ou par un retour de la fonction main(). 
+Les fonctions ainsi enregistrées sont invoquées en ordre inverse de leur 
+enregistrement, aucun argument n'est transmis.
+
+Exercice 2 :
+
+A:
+On utilise d'abord la fonction system() avec les commandes "/bin/ls -la " et "/bin/ls *.c".
+Seulement cette commande présente de failles et n'est pas la meilleure solution.
+
+Le résultat est satisfaisant, on a ce que l'on veut.
+
+B:
+Il est préférable d'utiliser la fonction execv() qui permet de remplacer l'image du processus par celui de l'appel de la fonction et de ces arguments passés en paramètre de la fonction.
+Pour utiliser cette fonction il est necessaire de créer des processus fils avec la fonction fork() car puisqu'elle remplace le processus actuel, si une erreur est déclanchée lors de l'appel de notre script avec ces arguments, alors le programme s'arrête et la suite n'est pas executée.
+Pour ce faire on a créé la fonction my_system(char *path, char **argv) exécutant la commande passée en paramètre en utilisant la fonction execv(). "path" représente le chemin de la commande exécutée ("/bin/ls") et "argv" le tableau terminé par NULL des arguments passés à cette commande, le premier argument étant le nom du programme lui-même. " path" et "argv" sont dans ce cas les arguments à passer à execv().
+
+Par ailleurs on capte les erreurs avec la bibliothèque errno.h et on utilise la fonction strerror(errno) si la fonction execv() renvoie -1 (i.e : si une erreur est survenue).
+
+C:
+Cependant avec la fonction execv on utilise directement l'interpreteur sans passer par le shell. Du coup les caractères spéciaux comme l'asterisk (*) ne sont pas interpretés par le shell. Du coup la commande ls va chercher un fichier nommé strictement *.c. Il est inexistant.
+On a deux solutions:
+soit on implémente le comportement du shell à la main :
+    lister les fichiers dans le dossier 
+    Utiliser fnmatch() pour récupérer les fichiers selon le format défini
+    Préparer la liste des arguments à passer. On utilise vfork() pour execuer ls execv() dans des processus différents.
+soit on utilise la fonction system() directement.

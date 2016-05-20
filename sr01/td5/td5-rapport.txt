@@ -1,0 +1,48 @@
+Rapport du TD n°5 de SR01
+
+But du TD :
+Récupérer les paramètres passés en argument dans la ligne de commande.
+Construire une librairie en regroupant des nouvelles fonctions de manipulation des chaînes de caractères dans une bibliothèque libmystr.a. Les fonctions seront déclarées dans un fichier d'entête mystr.h
+
+Exercice 1 :
+On récupère le deuxième argument entré en ligne de commande ‘-a|p|d’ pour savoir si on veut faire une addition, multiplication ou division.
+Puis on récupère les deux paramètres suivants qu’on converti en int grâce à la fonction atoi() avant d’effectuer le calcul souhaité.
+On aurait du vérifier l’existence des paramètres en amont mais nous avons préféré ne pas perdre de temps sur cet exercice.
+
+Exercice 2 :
+
+Partie I -
+
+On déclare les prototypes des fonctions disponibles dans notre librairie dans le fichier d’en-tête mystr.h.
+Le corps des fonctions est écrit dans le fichier mystr.c. 
+Voici les fonctions disponibles :
+
+void mystrupdown(char*, char*);      
+inverse les majuscules et les minuscules de s1 et retourne le resultat dans s2 exemple: s1="TiCtAc"  s2="tIcTaC"
+
+void mystrinv(char*, char*);         
+inverse la chaîne s1 et retoune le résultat dans s2:   exemple  s1="tac" s2="cat"
+
+int  mystrchrn(char*, char c);       
+retourne le nombre d'occurrences de c dans  la chaîne s
+
+void mystrncpy(char*, char*, int);   
+copie les n derniers caractères de s1 dans s2 et retourne s2
+
+void mystrncat(char*, char*, int);   
+concatène au plus les n derniers caractères de s1 à la chaîne s2
+
+int mystrlen(char*);
+récupère la longueur d’une chaine de caractères
+
+Dans les fonctions ci-dessus il ne faut pas oublier de mettre le caractère de fin de chaine ‘\0’ dans la nouvelle chaine créée.
+
+Ensuite on va créée le fichier mystr.o en compilant le fichier source mystr : 
+$ gcc -c mystr.c
+Puis on ajoute ce programme dans la librairie : 
+$ ar rvs libmystr.a mystr.o
+
+Partie II -
+On va créer un programme de test testring.c avec un menu pour que l’utilisateur puisse utiliser les fonctions de la librairies.
+On fait un include à la librairie mystr.h. On récupère le choix de l’utilisateur puis on traite la demande avec un switch/case pour appeler les fonctions en demandant les paramètres au préalable. On vérifie en amont que le choix de l’utilisateur est disponible dans le menu.
+

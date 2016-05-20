@@ -1,0 +1,2901 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gexf xmlns="http://www.gexf.net/1.2draft" version="1.2" xmlns:viz="http://www.gexf.net/1.2draft/viz" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd">
+  <meta lastmodifieddate="2015-12-15">
+    <creator>Gephi 0.8.1</creator>
+    <description></description>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static">
+    <attributes class="node" mode="static">
+      <attribute id="type" title="type" type="string"></attribute>
+      <attribute id="brewery" title="brewery" type="string"></attribute>
+      <attribute id="category" title="category" type="string"></attribute>
+      <attribute id="alcool" title="alcool" type="string"></attribute>
+      <attribute id="class" title="class" type="string"></attribute>
+      <attribute id="weight" title="weight" type="double"></attribute>
+      <attribute id="modularity_class" title="Modularity Class" type="integer">
+        <default>0</default>
+      </attribute>
+      <attribute id="eccentricity" title="Eccentricity" type="double">
+        <default>0.0</default>
+      </attribute>
+      <attribute id="closnesscentrality" title="Closeness Centrality" type="double">
+        <default>0.0</default>
+      </attribute>
+      <attribute id="betweenesscentrality" title="Betweenness Centrality" type="double">
+        <default>0.0</default>
+      </attribute>
+      <attribute id="ISOMETRIC_Z_VALUE" title="Computed Z-Level" type="integer">
+        <default>0</default>
+      </attribute>
+    </attributes>
+    <nodes>
+      <node id="bre1" label="Abbaye de Chimay">
+        <attvalues>
+          <attvalue for="type" value=""></attvalue>
+          <attvalue for="brewery" value="Abbaye de Chimay"></attvalue>
+          <attvalue for="category" value=""></attvalue>
+          <attvalue for="alcool" value=""></attvalue>
+          <attvalue for="class" value="brewery"></attvalue>
+          <attvalue for="weight" value="0.0"></attvalue>
+          <attvalue for="modularity_class" value="2"></attvalue>
+          <attvalue for="eccentricity" value="4.0"></attvalue>
+          <attvalue for="closnesscentrality" value="2.4583333333333335"></attvalue>
+          <attvalue for="betweenesscentrality" value="150.51402980490448"></attvalue>
+          <attvalue for="ISOMETRIC_Z_VALUE" value="0"></attvalue>
+        </attvalues>
+        <viz:size value="12.604446"></viz:size>
+        <viz:position x="7.2239685" y="-410.00092" z="0.0"></viz:position>
+        <viz:color r="158" g="83" b="233"></viz:color>
+      </node>
+      <node id="bre2" label="Brasserie d'Achouffe">
+        <attvalues>
+          <attvalue for="type" value=""></attvalue>
+          <attvalue for="brewery" value="Brasserie d'Achouffe"></attvalue>
+          <attvalue for="category" value=""></attvalue>
+          <attvalue for="alcool" value=""></attvalue>
+          <attvalue for="class" value="brewery"></attvalue>
+          <attvalue for="weight" value="0.0"></attvalue>
+          <attvalue for="modularity_class" value="0"></attvalue>
+          <attvalue for="eccentricity" value="4.0"></attvalue>
+          <attvalue for="closnesscentrality" value="2.5694444444444446"></attvalue>
+          <attvalue for="betweenesscentrality" value="250.9474841515554"></attvalue>
+          <attvalue for="ISOMETRIC_Z_VALUE" value="0"></attvalue>
+        </attvalues>
+        <viz:size value="17.678663"></viz:size>
+        <viz:position x="-72.58816" y="-285.62778" z="0.0"></viz:position>
+        <viz:color r="158" g="233" b="83"></viz:color>
+      </node>
+      <node id="bre3" label="Abbaye de Rochefort">
+        <attvalues>
+          <attvalue for="type" value=""></attvalue>
+          <attvalue for="brewery" value="Abbaye de Rochefort"></attvalue>
+          <attvalue for="category" value=""></attvalue>
+          <attvalue for="alcool" value=""></attvalue>
+          <attvalue for="class" value="brewery"></attvalue>
+          <attvalue for="weight" value="0.0"></attvalue>
+          <attvalue for="modularity_class" value="0"></attvalue>
+          <attvalue for="eccentricity" value="7.0"></attvalue>
+          <attvalue for="closnesscentrality" value="4.472222222222222"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="ISOMETRIC_Z_VALUE" value="0"></attvalue>
+        </attvalues>
+        <viz:size value="5.0"></viz:size>
+        <viz:position x="-45.216415" y="-705.136" z="0.0"></viz:position>
+        <viz:color r="158" g="233" b="83"></viz:color>
+      </node>
+      <node id="bre4" label="Brasserie du Bocq">
+        <attvalues>
+          <attvalue for="type" value=""></attvalue>
+          <attvalue for="brewery" value="Brasserie du Bocq"></attvalue>
+          <attvalue for="category" value=""></attvalue>
+          <attvalue for="alcool" value=""></attvalue>
+          <attvalue for="class" value="brewery"></attvalue>
+          <attvalue for="weight" value="0.0"></attvalue>
+          <attvalue for="modularity_class" value="1"></attvalue>
+          <attvalue for="eccentricity" value="6.0"></attvalue>
+          <attvalue for="closnesscentrality" value="2.875"></attvalue>
+          <attvalue for="betweenesscentrality" value="115.06666666666663"></attvalue>
+          <attvalue for="ISOMETRIC_Z_VALUE" value="0"></attvalue>
+        </attvalues>
+        <viz:size value="10.813533"></viz:size>
+        <viz:position x="222.76387" y="-62.158894" z="0.0"></viz:position>
+        <viz:color r="83" g="233" b="233"></viz:color>
+      </node>
+      <node id="bre5" label="Brasserie St-Feuillien">
+        <attvalues>
+          <attvalue for="type" value=""></attvalue>
+          <attvalue for="brewery" value="Brasserie St-Feuillien"></attvalue>
+          <attvalue for="category" value=""></attvalue>
+          <attvalue for="alcool" value=""></attvalue>
+          <attvalue for="class" value="brewery"></attvalue>
+          <attvalue for="weight" value="0.0"></attvalue>
+          <attvalue for="modularity_class" value="3"></attvalue>
+          <attvalue for="eccentricity" value="6.0"></attvalue>
+          <attvalue for="closnesscentrality" value="3.0972222222222223"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="ISOMETRIC_Z_VALUE" value="0"></attvalue>
+        </attvalues>
+        <viz:size value="5.0"></viz:size>
+        <viz:position x="33.817017" y="150.90694" z="0.0"></viz:position>
+        <viz:color r="233" g="83" b="83"></viz:color>
+      </node>
+      <node id="bre6" label="Brasserie Het Anker">
+        <attvalues>
+          <attvalue for="type" value=""></attvalue>
+          <attvalue for="brewery" value="Brasserie Het Anker"></attvalue>
+          <attvalue for="category" value=""></attvalue>
+          <attvalue for="alcool" value=""></attvalue>
+          <attvalue for="class" value="brewery"></attvalue>
+          <attvalue for="weight" value="0.0"></attvalue>
+          <attvalue for="modularity_class" value="3"></attvalue>
+          <attvalue for="eccentricity" value="6.0"></attvalue>
+          <attvalue for="closnesscentrality" value="3.111111111111111"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="ISOMETRIC_Z_VALUE" value="0"></attvalue>
+        </attvalues>
+        <viz:size value="5.0"></viz:size>
+        <viz:position x="-88.74735" y="186.66583" z="0.0"></viz:position>
+        <viz:color r="233" g="83" b="83"></viz:color>
+      </node>
+      <node id="bre7" label="Brasserie Duvel Moortgat">
+        <attvalues>
+          <attvalue for="type" value=""></attvalue>
+          <attvalue for="brewery" value="Brasserie Duvel Moortgat"></attvalue>
+          <attvalue for="category" value=""></attvalue>
+          <attvalue for="alcool" value=""></attvalue>
+          <attvalue for="class" value="brewery"></attvalue>
+          <attvalue for="weight" value="0.0"></attvalue>
+          <attvalue for="modularity_class" value="3"></attvalue>
+          <attvalue for="eccentricity" value="6.0"></attvalue>
+          <attvalue for="closnesscentrality" value="3.111111111111111"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="ISOMETRIC_Z_VALUE" value="0"></attvalue>
+        </attvalues>
+        <viz:size value="5.0"></viz:size>
+        <viz:position x="-152.95062" y="105.10192" z="0.0"></viz:position>
+        <viz:color r="233" g="83" b="83"></viz:color>
+      </node>
+      <node id="bre8" label="Brasserie Dubuisson">
+        <attvalues>
+          <attvalue for="type" value=""></attvalue>
+          <attvalue for="brewery" value="Brasserie Dubuisson"></attvalue>
+          <attvalue for="category" value=""></attvalue>
+          <attvalue for="alcool" value=""></attvalue>
+          <attvalue for="class" value="brewery"></attvalue>
+          <attvalue for="weight" value="0.0"></attvalue>
+          <attvalue for="modularity_class" value="1"></attvalue>
+          <attvalue for="eccentricity" value="6.0"></attvalue>
+          <attvalue for="closnesscentrality" value="2.888888888888889"></attvalue>
+          <attvalue for="betweenesscentrality" value="90.7"></attvalue>
+          <attvalue for="ISOMETRIC_Z_VALUE" value="0"></attvalue>
+        </attvalues>
+        <viz:size value="9.582452"></viz:size>
+        <viz:position x="198.12045" y="-95.30241" z="0.0"></viz:position>
+        <viz:color r="83" g="233" b="233"></viz:color>
+      </node>
+      <node id="bre9" label="Abbaye de Westmalle">
+        <attvalues>
+          <attvalue for="type" value=""></attvalue>
+          <attvalue for="brewery" value="Abbaye de Westmalle"></attvalue>
+          <attvalue for="category" value=""></attvalue>
+          <attvalue for="alcool" value=""></attvalue>
+          <attvalue for="class" value="brewery"></attvalue>
+          <attvalue for="weight" value="0.0"></attvalue>
+          <attvalue for="modularity_class" value="3"></attvalue>
+          <attvalue for="eccentricity" value="6.0"></attvalue>
+          <attvalue for="closnesscentrality" value="3.111111111111111"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="ISOMETRIC_Z_VALUE" value="0"></attvalue>
+        </attvalues>
+        <viz:size value="5.0"></viz:size>
+        <viz:position x="-191.88234" y="4.6996" z="0.0"></viz:position>
+        <viz:color r="233" g="83" b="83"></viz:color>
+      </node>
+      <node id="bre10" label="Brasserie de Silly">
+        <attvalues>
+          <attvalue for="type" value=""></attvalue>
+          <attvalue for="brewery" value="Brasserie de Silly"></attvalue>
+          <attvalue for="category" value=""></attvalue>
+          <attvalue for="alcool" value=""></attvalue>
+          <attvalue for="class" value="brewery"></attvalue>
+          <attvalue for="weight" value="0.0"></attvalue>
+          <attvalue for="modularity_class" value="1"></attvalue>
+          <attvalue for="eccentricity" value="6.0"></attvalue>
+          <attvalue for="closnesscentrality" value="2.6944444444444446"></attvalue>
+          <attvalue for="betweenesscentrality" value="173.04153439153436"></attvalue>
+          <attvalue for="ISOMETRIC_Z_VALUE" value="0"></attvalue>
+        </attvalues>
+        <viz:size value="13.742607"></viz:size>
+        <viz:position x="236.6676" y="-274.30942" z="0.0"></viz:position>
+        <viz:color r="83" g="233" b="233"></viz:color>
+      </node>
+      <node id="bre11" label="Brasserie Sint Canarus">
+        <attvalues>
+          <attvalue for="type" value=""></attvalue>
+          <attvalue for="brewery" value="Brasserie Sint Canarus"></attvalue>
+          <attvalue for="category" value=""></attvalue>
+          <attvalue for="alcool" value=""></attvalue>
+          <attvalue for="class" value="brewery"></attvalue>
+          <attvalue for="weight" value="0.0"></attvalue>
+          <attvalue for="modularity_class" value="2"></attvalue>
+          <attvalue for="eccentricity" value="7.0"></attvalue>
+          <attvalue for="closnesscentrality" value="4.152777777777778"></attvalue>
+          <attvalue for="betweenesscentrality" value="24.752941176470582"></attvalue>
+          <attvalue for="ISOMETRIC_Z_VALUE" value="0"></attvalue>
+        </attvalues>
+        <viz:size value="6.250597"></viz:size>
+        <viz:position x="61.326298" y="-606.21924" z="0.0"></viz:position>
+        <viz:color r="158" g="83" b="233"></viz:color>
+      </node>
+      <node id="bre12" label="Brasserie Van Honsenbrouck">
+        <attvalues>
+          <attvalue for="type" value=""></attvalue>
+          <attvalue for="brewery" value="Brasserie Van Honsenbrouck"></attvalue>
+          <attvalue for="category" value=""></attvalue>
+          <attvalue for="alcool" value=""></attvalue>
+          <attvalue for="class" value="brewery"></attvalue>
+          <attvalue for="weight" value="0.0"></attvalue>
+          <attvalue for="modularity_class" value="0"></attvalue>
+          <attvalue for="eccentricity" value="7.0"></attvalue>
+          <attvalue for="closnesscentrality" value="4.472222222222222"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="ISOMETRIC_Z_VALUE" value="0"></attvalue>
+        </attvalues>
+        <viz:size value="5.0"></viz:size>
+        <viz:position x="-91.83253" y="-688.15424" z="0.0"></viz:position>
+        <viz:color r="158" g="233" b="83"></viz:color>
+      </node>
+      <node id="bre13" label="Brasserie Van Steenberge">
+        <attvalues>
+          <attvalue for="type" value=""></attvalue>
+          <attvalue for="brewery" value="Brasserie Van Steenberge"></attvalue>
+          <attvalue for="category" value=""></attvalue>
+          <attvalue for="alcool" value=""></attvalue>
+          <attvalue for="class" value="brewery"></attvalue>
+          <attvalue for="weight" value="0.0"></attvalue>
+          <attvalue for="modularity_class" value="2"></attvalue>
+          <attvalue for="eccentricity" value="4.0"></attvalue>
+          <attvalue for="closnesscentrality" value="2.4583333333333335"></attvalue>
+          <attvalue for="betweenesscentrality" value="150.51402980490437"></attvalue>
+          <attvalue for="ISOMETRIC_Z_VALUE" value="0"></attvalue>
+        </attvalues>
+        <viz:size value="12.604446"></viz:size>
+        <viz:position x="33.778713" y="-410.2445" z="0.0"></viz:position>
+        <viz:color r="158" g="83" b="233"></viz:color>
+      </node>
+      <node id="bre14" label="Brasserie De Halve Maan">
+        <attvalues>
+          <attvalue for="type" value=""></attvalue>
+          <attvalue for="brewery" value="Brasserie De Halve Maan"></attvalue>
+          <attvalue for="category" value=""></attvalue>
+          <attvalue for="alcool" value=""></attvalue>
+          <attvalue for="class" value="brewery"></attvalue>
+          <attvalue for="weight" value="0.0"></attvalue>
+          <attvalue for="modularity_class" value="0"></attvalue>
+          <attvalue for="eccentricity" value="7.0"></attvalue>
+          <attvalue for="closnesscentrality" value="4.472222222222222"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="ISOMETRIC_Z_VALUE" value="0"></attvalue>
+        </attvalues>
+        <viz:size value="5.0"></viz:size>
+        <viz:position x="-73.287384" y="-706.4909" z="0.0"></viz:position>
+        <viz:color r="158" g="233" b="83"></viz:color>
+      </node>
+      <node id="bre15" label="Brasserie Haacht">
+        <attvalues>
+          <attvalue for="type" value=""></attvalue>
+          <attvalue for="brewery" value="Brasserie Haacht"></attvalue>
+          <attvalue for="category" value=""></attvalue>
+          <attvalue for="alcool" value=""></attvalue>
+          <attvalue for="class" value="brewery"></attvalue>
+          <attvalue for="weight" value="0.0"></attvalue>
+          <attvalue for="modularity_class" value="3"></attvalue>
+          <attvalue for="eccentricity" value="6.0"></attvalue>
+          <attvalue for="closnesscentrality" value="3.111111111111111"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="ISOMETRIC_Z_VALUE" value="0"></attvalue>
+        </attvalues>
+        <viz:size value="5.0"></viz:size>
+        <viz:position x="53.464157" y="192.29839" z="0.0"></viz:position>
+        <viz:color r="233" g="83" b="83"></viz:color>
+      </node>
+      <node id="bre16" label="Brasserie Queue de Charrue">
+        <attvalues>
+          <attvalue for="type" value=""></attvalue>
+          <attvalue for="brewery" value="Brasserie Queue de Charrue"></attvalue>
+          <attvalue for="category" value=""></attvalue>
+          <attvalue for="alcool" value=""></attvalue>
+          <attvalue for="class" value="brewery"></attvalue>
+          <attvalue for="weight" value="0.0"></attvalue>
+          <attvalue for="modularity_class" value="3"></attvalue>
+          <attvalue for="eccentricity" value="6.0"></attvalue>
+          <attvalue for="closnesscentrality" value="3.111111111111111"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="ISOMETRIC_Z_VALUE" value="0"></attvalue>
+        </attvalues>
+        <viz:size value="5.0"></viz:size>
+        <viz:position x="-185.40985" y="75.934875" z="0.0"></viz:position>
+        <viz:color r="233" g="83" b="83"></viz:color>
+      </node>
+      <node id="bre17" label="Abbaye d'Averbode">
+        <attvalues>
+          <attvalue for="type" value=""></attvalue>
+          <attvalue for="brewery" value="Abbaye d'Averbode"></attvalue>
+          <attvalue for="category" value=""></attvalue>
+          <attvalue for="alcool" value=""></attvalue>
+          <attvalue for="class" value="brewery"></attvalue>
+          <attvalue for="weight" value="0.0"></attvalue>
+          <attvalue for="modularity_class" value="3"></attvalue>
+          <attvalue for="eccentricity" value="6.0"></attvalue>
+          <attvalue for="closnesscentrality" value="3.111111111111111"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="ISOMETRIC_Z_VALUE" value="0"></attvalue>
+        </attvalues>
+        <viz:size value="5.0"></viz:size>
+        <viz:position x="-145.67026" y="144.8399" z="0.0"></viz:position>
+        <viz:color r="233" g="83" b="83"></viz:color>
+      </node>
+      <node id="bre19" label="Brasserie Warsteiner">
+        <attvalues>
+          <attvalue for="type" value=""></attvalue>
+          <attvalue for="brewery" value="Brasserie Warsteiner"></attvalue>
+          <attvalue for="category" value=""></attvalue>
+          <attvalue for="alcool" value=""></attvalue>
+          <attvalue for="class" value="brewery"></attvalue>
+          <attvalue for="weight" value="0.0"></attvalue>
+          <attvalue for="modularity_class" value="3"></attvalue>
+          <attvalue for="eccentricity" value="6.0"></attvalue>
+          <attvalue for="closnesscentrality" value="3.111111111111111"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="ISOMETRIC_Z_VALUE" value="0"></attvalue>
+        </attvalues>
+        <viz:size value="5.0"></viz:size>
+        <viz:position x="-20.585379" y="201.57242" z="0.0"></viz:position>
+        <viz:color r="233" g="83" b="83"></viz:color>
+      </node>
+      <node id="bre20" label="Brasserie de la Corne du Bois des Pendus">
+        <attvalues>
+          <attvalue for="type" value=""></attvalue>
+          <attvalue for="brewery" value="Brasserie de la Corne du Bois des Pendus"></attvalue>
+          <attvalue for="category" value=""></attvalue>
+          <attvalue for="alcool" value=""></attvalue>
+          <attvalue for="class" value="brewery"></attvalue>
+          <attvalue for="weight" value="0.0"></attvalue>
+          <attvalue for="modularity_class" value="3"></attvalue>
+          <attvalue for="eccentricity" value="6.0"></attvalue>
+          <attvalue for="closnesscentrality" value="3.111111111111111"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="ISOMETRIC_Z_VALUE" value="0"></attvalue>
+        </attvalues>
+        <viz:size value="5.0"></viz:size>
+        <viz:position x="105.68928" y="152.97949" z="0.0"></viz:position>
+        <viz:color r="233" g="83" b="83"></viz:color>
+      </node>
+      <node id="bre21" label="Brasserie Huyghe">
+        <attvalues>
+          <attvalue for="type" value=""></attvalue>
+          <attvalue for="brewery" value="Brasserie Huyghe"></attvalue>
+          <attvalue for="category" value=""></attvalue>
+          <attvalue for="alcool" value=""></attvalue>
+          <attvalue for="class" value="brewery"></attvalue>
+          <attvalue for="weight" value="0.0"></attvalue>
+          <attvalue for="modularity_class" value="1"></attvalue>
+          <attvalue for="eccentricity" value="4.0"></attvalue>
+          <attvalue for="closnesscentrality" value="2.388888888888889"></attvalue>
+          <attvalue for="betweenesscentrality" value="296.8934727341229"></attvalue>
+          <attvalue for="ISOMETRIC_Z_VALUE" value="0"></attvalue>
+        </attvalues>
+        <viz:size value="20.0"></viz:size>
+        <viz:position x="51.850677" y="-183.789" z="0.0"></viz:position>
+        <viz:color r="83" g="233" b="233"></viz:color>
+      </node>
+      <node id="bre22" label="Brasserie Bosteels">
+        <attvalues>
+          <attvalue for="type" value=""></attvalue>
+          <attvalue for="brewery" value="Brasserie Bosteels"></attvalue>
+          <attvalue for="category" value=""></attvalue>
+          <attvalue for="alcool" value=""></attvalue>
+          <attvalue for="class" value="brewery"></attvalue>
+          <attvalue for="weight" value="0.0"></attvalue>
+          <attvalue for="modularity_class" value="2"></attvalue>
+          <attvalue for="eccentricity" value="6.0"></attvalue>
+          <attvalue for="closnesscentrality" value="2.888888888888889"></attvalue>
+          <attvalue for="betweenesscentrality" value="58.56984126984127"></attvalue>
+          <attvalue for="ISOMETRIC_Z_VALUE" value="0"></attvalue>
+        </attvalues>
+        <viz:size value="7.959134"></viz:size>
+        <viz:position x="89.11992" y="-290.22278" z="0.0"></viz:position>
+        <viz:color r="158" g="83" b="233"></viz:color>
+      </node>
+      <node id="bre23" label="Brasserie Lefebvre">
+        <attvalues>
+          <attvalue for="type" value=""></attvalue>
+          <attvalue for="brewery" value="Brasserie Lefebvre"></attvalue>
+          <attvalue for="category" value=""></attvalue>
+          <attvalue for="alcool" value=""></attvalue>
+          <attvalue for="class" value="brewery"></attvalue>
+          <attvalue for="weight" value="0.0"></attvalue>
+          <attvalue for="modularity_class" value="3"></attvalue>
+          <attvalue for="eccentricity" value="6.0"></attvalue>
+          <attvalue for="closnesscentrality" value="3.0972222222222223"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="ISOMETRIC_Z_VALUE" value="0"></attvalue>
+        </attvalues>
+        <viz:size value="5.0"></viz:size>
+        <viz:position x="-77.15071" y="139.39561" z="0.0"></viz:position>
+        <viz:color r="233" g="83" b="83"></viz:color>
+      </node>
+      <node id="bre24" label="Abbaye de Maredsous">
+        <attvalues>
+          <attvalue for="type" value=""></attvalue>
+          <attvalue for="brewery" value="Abbaye de Maredsous"></attvalue>
+          <attvalue for="category" value=""></attvalue>
+          <attvalue for="alcool" value=""></attvalue>
+          <attvalue for="class" value="brewery"></attvalue>
+          <attvalue for="weight" value="0.0"></attvalue>
+          <attvalue for="modularity_class" value="3"></attvalue>
+          <attvalue for="eccentricity" value="6.0"></attvalue>
+          <attvalue for="closnesscentrality" value="3.111111111111111"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="ISOMETRIC_Z_VALUE" value="0"></attvalue>
+        </attvalues>
+        <viz:size value="5.0"></viz:size>
+        <viz:position x="-171.22188" y="16.954018" z="0.0"></viz:position>
+        <viz:color r="233" g="83" b="83"></viz:color>
+      </node>
+      <node id="pro519" label="Blanche de Namur">
+        <attvalues>
+          <attvalue for="type" value="BLANCHE"></attvalue>
+          <attvalue for="brewery" value="Brasserie du Bocq"></attvalue>
+          <attvalue for="category" value="Bieres bouteille"></attvalue>
+          <attvalue for="alcool" value="1"></attvalue>
+          <attvalue for="class" value="product"></attvalue>
+          <attvalue for="weight" value="1.15"></attvalue>
+          <attvalue for="modularity_class" value="1"></attvalue>
+          <attvalue for="eccentricity" value="7.0"></attvalue>
+          <attvalue for="closnesscentrality" value="3.861111111111111"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="ISOMETRIC_Z_VALUE" value="0"></attvalue>
+        </attvalues>
+        <viz:size value="5.0"></viz:size>
+        <viz:position x="281.15262" y="-68.16676" z="0.0"></viz:position>
+        <viz:color r="83" g="233" b="233"></viz:color>
+      </node>
+      <node id="pro890" label="Grand Cru St Feuillien">
+        <attvalues>
+          <attvalue for="type" value="BLONDE"></attvalue>
+          <attvalue for="brewery" value="Brasserie St-Feuillien"></attvalue>
+          <attvalue for="category" value="Bieres bouteille"></attvalue>
+          <attvalue for="alcool" value="1"></attvalue>
+          <attvalue for="class" value="product"></attvalue>
+          <attvalue for="weight" value="1.95"></attvalue>
+          <attvalue for="modularity_class" value="3"></attvalue>
+          <attvalue for="eccentricity" value="5.0"></attvalue>
+          <attvalue for="closnesscentrality" value="2.125"></attvalue>
+          <attvalue for="betweenesscentrality" value="35.0"></attvalue>
+          <attvalue for="ISOMETRIC_Z_VALUE" value="0"></attvalue>
+        </attvalues>
+        <viz:size value="6.768311"></viz:size>
+        <viz:position x="3.4061236" y="73.31015" z="0.0"></viz:position>
+        <viz:color r="233" g="83" b="83"></viz:color>
+      </node>
+      <node id="pro1394" label="Carolus Triple">
+        <attvalues>
+          <attvalue for="type" value="BLONDE"></attvalue>
+          <attvalue for="brewery" value="Brasserie Het Anker"></attvalue>
+          <attvalue for="category" value="Bieres bouteille"></attvalue>
+          <attvalue for="alcool" value="1"></attvalue>
+          <attvalue for="class" value="product"></attvalue>
+          <attvalue for="weight" value="1.75"></attvalue>
+          <attvalue for="modularity_class" value="3"></attvalue>
+          <attvalue for="eccentricity" value="5.0"></attvalue>
+          <attvalue for="closnesscentrality" value="2.125"></attvalue>
+          <attvalue for="betweenesscentrality" value="71.0"></attvalue>
+          <attvalue for="ISOMETRIC_Z_VALUE" value="0"></attvalue>
+        </attvalues>
+        <viz:size value="8.587145"></viz:size>
+        <viz:position x="-48.331936" y="94.25849" z="0.0"></viz:position>
+        <viz:color r="233" g="83" b="83"></viz:color>
+      </node>
+      <node id="pro1395" label="Peche Mel Bush">
+        <attvalues>
+          <attvalue for="type" value="FRUITEE"></attvalue>
+          <attvalue for="brewery" value="Brasserie Dubuisson"></attvalue>
+          <attvalue for="category" value="Bieres bouteille"></attvalue>
+          <attvalue for="alcool" value="1"></attvalue>
+          <attvalue for="class" value="product"></attvalue>
+          <attvalue for="weight" value="1.7"></attvalue>
+          <attvalue for="modularity_class" value="1"></attvalue>
+          <attvalue for="eccentricity" value="5.0"></attvalue>
+          <attvalue for="closnesscentrality" value="3.236111111111111"></attvalue>
+          <attvalue for="betweenesscentrality" value="6.579051796157059"></attvalue>
+          <attvalue for="ISOMETRIC_Z_VALUE" value="0"></attvalue>
+        </attvalues>
+        <viz:size value="5.3323946"></viz:size>
+        <viz:position x="319.75574" y="-219.60257" z="0.0"></viz:position>
+        <viz:color r="83" g="233" b="233"></viz:color>
+      </node>
+      <node id="pro1396" label="Rochefort 8">
+        <attvalues>
+          <attvalue for="type" value="BRUNE"></attvalue>
+          <attvalue for="brewery" value="Abbaye de Rochefort"></attvalue>
+          <attvalue for="category" value="Bieres bouteille"></attvalue>
+          <attvalue for="alcool" value="1"></attvalue>
+          <attvalue for="class" value="product"></attvalue>
+          <attvalue for="weight" value="1.95"></attvalue>
+          <attvalue for="modularity_class" value="0"></attvalue>
+          <attvalue for="eccentricity" value="6.0"></attvalue>
+          <attvalue for="closnesscentrality" value="3.486111111111111"></attvalue>
+          <attvalue for="betweenesscentrality" value="71.0"></attvalue>
+          <attvalue for="ISOMETRIC_Z_VALUE" value="0"></attvalue>
+        </attvalues>
+        <viz:size value="8.587145"></viz:size>
+        <viz:position x="-44.81526" y="-655.19275" z="0.0"></viz:position>
+        <viz:color r="158" g="233" b="83"></viz:color>
+      </node>
+      <node id="pro1397" label="Duvel">
+        <attvalues>
+          <attvalue for="type" value="BLONDE"></attvalue>
+          <attvalue for="brewery" value="Brasserie Duvel Moortgat"></attvalue>
+          <attvalue for="category" value="Bieres bouteille"></attvalue>
+          <attvalue for="alcool" value="1"></attvalue>
+          <attvalue for="class" value="product"></attvalue>
+          <attvalue for="weight" value="1.65"></attvalue>
+          <attvalue for="modularity_class" value="3"></attvalue>
+          <attvalue for="eccentricity" value="5.0"></attvalue>
+          <attvalue for="closnesscentrality" value="2.125"></attvalue>
+          <attvalue for="betweenesscentrality" value="71.0"></attvalue>
+          <attvalue for="ISOMETRIC_Z_VALUE" value="0"></attvalue>
+        </attvalues>
+        <viz:size value="8.587145"></viz:size>
+        <viz:position x="-60.404" y="46.52793" z="0.0"></viz:position>
+        <viz:color r="233" g="83" b="83"></viz:color>
+      </node>
+      <node id="pro1398" label="Westmalle Triple">
+        <attvalues>
+          <attvalue for="type" value="BLONDE"></attvalue>
+          <attvalue for="brewery" value="Abbaye de Westmalle"></attvalue>
+          <attvalue for="category" value="Bieres bouteille"></attvalue>
+          <attvalue for="alcool" value="1"></attvalue>
+          <attvalue for="class" value="product"></attvalue>
+          <attvalue for="weight" value="1.75"></attvalue>
+          <attvalue for="modularity_class" value="3"></attvalue>
+          <attvalue for="eccentricity" value="5.0"></attvalue>
+          <attvalue for="closnesscentrality" value="2.125"></attvalue>
+          <attvalue for="betweenesscentrality" value="71.0"></attvalue>
+          <attvalue for="ISOMETRIC_Z_VALUE" value="0"></attvalue>
+        </attvalues>
+        <viz:size value="8.587145"></viz:size>
+        <viz:position x="-92.37268" y="8.632579" z="0.0"></viz:position>
+        <viz:color r="233" g="83" b="83"></viz:color>
+      </node>
+      <node id="pro1399" label="Chimay Bleue">
+        <attvalues>
+          <attvalue for="type" value="BRUNE"></attvalue>
+          <attvalue for="brewery" value="Abbaye de Chimay"></attvalue>
+          <attvalue for="category" value="Bieres bouteille"></attvalue>
+          <attvalue for="alcool" value="1"></attvalue>
+          <attvalue for="class" value="product"></attvalue>
+          <attvalue for="weight" value="1.8"></attvalue>
+          <attvalue for="modularity_class" value="0"></attvalue>
+          <attvalue for="eccentricity" value="5.0"></attvalue>
+          <attvalue for="closnesscentrality" value="2.9305555555555554"></attvalue>
+          <attvalue for="betweenesscentrality" value="61.17752186839646"></attvalue>
+          <attvalue for="ISOMETRIC_Z_VALUE" value="0"></attvalue>
+        </attvalues>
+        <viz:size value="8.090882"></viz:size>
+        <viz:position x="-48.88985" y="-614.9066" z="0.0"></viz:position>
+        <viz:color r="158" g="233" b="83"></viz:color>
+      </node>
+      <node id="pro1400" label="Scotch Silly">
+        <attvalues>
+          <attvalue for="type" value="AMBREE"></attvalue>
+          <attvalue for="brewery" value="Brasserie de Silly"></attvalue>
+          <attvalue for="category" value="Bieres bouteille"></attvalue>
+          <attvalue for="alcool" value="1"></attvalue>
+          <attvalue for="class" value="product"></attvalue>
+          <attvalue for="weight" value="1.5"></attvalue>
+          <attvalue for="modularity_class" value="2"></attvalue>
+          <attvalue for="eccentricity" value="5.0"></attvalue>
+          <attvalue for="closnesscentrality" value="3.1666666666666665"></attvalue>
+          <attvalue for="betweenesscentrality" value="56.46702458761283"></attvalue>
+          <attvalue for="ISOMETRIC_Z_VALUE" value="0"></attvalue>
+        </attvalues>
+        <viz:size value="7.8528934"></viz:size>
+        <viz:position x="161.38332" y="-465.03992" z="0.0"></viz:position>
+        <viz:color r="158" g="83" b="233"></viz:color>
+      </node>
+      <node id="pro1659" label="Pere Canard">
+        <attvalues>
+          <attvalue for="type" value="AMBREE"></attvalue>
+          <attvalue for="brewery" value="Brasserie Sint Canarus"></attvalue>
+          <attvalue for="category" value="Bieres bouteille"></attvalue>
+          <attvalue for="alcool" value="1"></attvalue>
+          <attvalue for="class" value="product"></attvalue>
+          <attvalue for="weight" value="1.7"></attvalue>
+          <attvalue for="modularity_class" value="2"></attvalue>
+          <attvalue for="eccentricity" value="6.0"></attvalue>
+          <attvalue for="closnesscentrality" value="3.6666666666666665"></attvalue>
+          <attvalue for="betweenesscentrality" value="33.87066604419545"></attvalue>
+          <attvalue for="ISOMETRIC_Z_VALUE" value="0"></attvalue>
+        </attvalues>
+        <viz:size value="6.7112536"></viz:size>
+        <viz:position x="127.345345" y="-525.68445" z="0.0"></viz:position>
+        <viz:color r="158" g="83" b="233"></viz:color>
+      </node>
+      <node id="pro2022" label="Potteloereke">
+        <attvalues>
+          <attvalue for="type" value="BRUNE"></attvalue>
+          <attvalue for="brewery" value="Brasserie Sint Canarus"></attvalue>
+          <attvalue for="category" value="Bieres bouteille"></attvalue>
+          <attvalue for="alcool" value="1"></attvalue>
+          <attvalue for="class" value="product"></attvalue>
+          <attvalue for="weight" value="1.6"></attvalue>
+          <attvalue for="modularity_class" value="0"></attvalue>
+          <attvalue for="eccentricity" value="6.0"></attvalue>
+          <attvalue for="closnesscentrality" value="3.4166666666666665"></attvalue>
+          <attvalue for="betweenesscentrality" value="66.63521630874573"></attvalue>
+          <attvalue for="ISOMETRIC_Z_VALUE" value="0"></attvalue>
+        </attvalues>
+        <viz:size value="8.366623"></viz:size>
+        <viz:position x="-27.984459" y="-639.6302" z="0.0"></viz:position>
+        <viz:color r="158" g="233" b="83"></viz:color>
+      </node>
+      <node id="pro2096" label="Saison St Feuillien">
+        <attvalues>
+          <attvalue for="type" value="BLONDE"></attvalue>
+          <attvalue for="brewery" value="Brasserie St-Feuillien"></attvalue>
+          <attvalue for="category" value="Bieres bouteille"></attvalue>
+          <attvalue for="alcool" value="1"></attvalue>
+          <attvalue for="class" value="product"></attvalue>
+          <attvalue for="weight" value="1.65"></attvalue>
+          <attvalue for="modularity_class" value="3"></attvalue>
+          <attvalue for="eccentricity" value="5.0"></attvalue>
+          <attvalue for="closnesscentrality" value="2.125"></attvalue>
+          <attvalue for="betweenesscentrality" value="35.0"></attvalue>
+          <attvalue for="ISOMETRIC_Z_VALUE" value="0"></attvalue>
+        </attvalues>
+        <viz:size value="6.768311"></viz:size>
+        <viz:position x="2.9736986" y="46.164543" z="0.0"></viz:position>
+        <viz:color r="233" g="83" b="83"></viz:color>
+      </node>
+      <node id="pro2299" label="Kasteel brune">
+        <attvalues>
+          <attvalue for="type" value="BRUNE"></attvalue>
+          <attvalue for="brewery" value="Brasserie Van Honsenbrouck"></attvalue>
+          <attvalue for="category" value="Bieres bouteille"></attvalue>
+          <attvalue for="alcool" value="1"></attvalue>
+          <attvalue for="class" value="product"></attvalue>
+          <attvalue for="weight" value="1.9"></attvalue>
+          <attvalue for="modularity_class" value="0"></attvalue>
+          <attvalue for="eccentricity" value="6.0"></attvalue>
+          <attvalue for="closnesscentrality" value="3.486111111111111"></attvalue>
+          <attvalue for="betweenesscentrality" value="71.0"></attvalue>
+          <attvalue for="ISOMETRIC_Z_VALUE" value="0"></attvalue>
+        </attvalues>
+        <viz:size value="8.587145"></viz:size>
+        <viz:position x="-69.469124" y="-643.1791" z="0.0"></viz:position>
+        <viz:color r="158" g="233" b="83"></viz:color>
+      </node>
+      <node id="pro2335" label="Gulden Draak">
+        <attvalues>
+          <attvalue for="type" value="BRUNE"></attvalue>
+          <attvalue for="brewery" value="Brasserie Van Steenberge"></attvalue>
+          <attvalue for="category" value="Bieres bouteille"></attvalue>
+          <attvalue for="alcool" value="1"></attvalue>
+          <attvalue for="class" value="product"></attvalue>
+          <attvalue for="weight" value="1.9"></attvalue>
+          <attvalue for="modularity_class" value="0"></attvalue>
+          <attvalue for="eccentricity" value="5.0"></attvalue>
+          <attvalue for="closnesscentrality" value="2.9305555555555554"></attvalue>
+          <attvalue for="betweenesscentrality" value="61.177521868396454"></attvalue>
+          <attvalue for="ISOMETRIC_Z_VALUE" value="0"></attvalue>
+        </attvalues>
+        <viz:size value="8.090882"></viz:size>
+        <viz:position x="-30.58905" y="-611.2497" z="0.0"></viz:position>
+        <viz:color r="158" g="233" b="83"></viz:color>
+      </node>
+      <node id="pro2467" label="Bornem">
+        <attvalues>
+          <attvalue for="type" value="BLONDE"></attvalue>
+          <attvalue for="brewery" value="Brasserie Van Steenberge"></attvalue>
+          <attvalue for="category" value="Bieres bouteille"></attvalue>
+          <attvalue for="alcool" value="1"></attvalue>
+          <attvalue for="class" value="product"></attvalue>
+          <attvalue for="weight" value="1.5"></attvalue>
+          <attvalue for="modularity_class" value="3"></attvalue>
+          <attvalue for="eccentricity" value="4.0"></attvalue>
+          <attvalue for="closnesscentrality" value="1.9722222222222223"></attvalue>
+          <attvalue for="betweenesscentrality" value="163.9944219617671"></attvalue>
+          <attvalue for="ISOMETRIC_Z_VALUE" value="0"></attvalue>
+        </attvalues>
+        <viz:size value="13.285518"></viz:size>
+        <viz:position x="-0.3249052" y="-65.27783" z="0.0"></viz:position>
+        <viz:color r="233" g="83" b="83"></viz:color>
+      </node>
+      <node id="pro2745" label="Straffe Hendrik">
+        <attvalues>
+          <attvalue for="type" value="BRUNE"></attvalue>
+          <attvalue for="brewery" value="Brasserie De Halve Maan"></attvalue>
+          <attvalue for="category" value="Bieres bouteille"></attvalue>
+          <attvalue for="alcool" value="1"></attvalue>
+          <attvalue for="class" value="product"></attvalue>
+          <attvalue for="weight" value="1.75"></attvalue>
+          <attvalue for="modularity_class" value="0"></attvalue>
+          <attvalue for="eccentricity" value="6.0"></attvalue>
+          <attvalue for="closnesscentrality" value="3.486111111111111"></attvalue>
+          <attvalue for="betweenesscentrality" value="71.0"></attvalue>
+          <attvalue for="ISOMETRIC_Z_VALUE" value="0"></attvalue>
+        </attvalues>
+        <viz:size value="8.587145"></viz:size>
+        <viz:position x="-61.45552" y="-657.8206" z="0.0"></viz:position>
+        <viz:color r="158" g="233" b="83"></viz:color>
+      </node>
+      <node id="pro2840" label="Rince Cochon">
+        <attvalues>
+          <attvalue for="type" value="BLONDE"></attvalue>
+          <attvalue for="brewery" value="Brasserie Haacht"></attvalue>
+          <attvalue for="category" value="Bieres bouteille"></attvalue>
+          <attvalue for="alcool" value="1"></attvalue>
+          <attvalue for="class" value="product"></attvalue>
+          <attvalue for="weight" value="1.85"></attvalue>
+          <attvalue for="modularity_class" value="3"></attvalue>
+          <attvalue for="eccentricity" value="5.0"></attvalue>
+          <attvalue for="closnesscentrality" value="2.125"></attvalue>
+          <attvalue for="betweenesscentrality" value="71.0"></attvalue>
+          <attvalue for="ISOMETRIC_Z_VALUE" value="0"></attvalue>
+        </attvalues>
+        <viz:size value="8.587145"></viz:size>
+        <viz:position x="19.418144" y="98.157974" z="0.0"></viz:position>
+        <viz:color r="233" g="83" b="83"></viz:color>
+      </node>
+      <node id="pro2841" label="Queue de Charue">
+        <attvalues>
+          <attvalue for="type" value="BLONDE"></attvalue>
+          <attvalue for="brewery" value="Brasserie Queue de Charrue"></attvalue>
+          <attvalue for="category" value="Bieres bouteille"></attvalue>
+          <attvalue for="alcool" value="1"></attvalue>
+          <attvalue for="class" value="product"></attvalue>
+          <attvalue for="weight" value="1.65"></attvalue>
+          <attvalue for="modularity_class" value="3"></attvalue>
+          <attvalue for="eccentricity" value="5.0"></attvalue>
+          <attvalue for="closnesscentrality" value="2.125"></attvalue>
+          <attvalue for="betweenesscentrality" value="71.0"></attvalue>
+          <attvalue for="ISOMETRIC_Z_VALUE" value="0"></attvalue>
+        </attvalues>
+        <viz:size value="8.587145"></viz:size>
+        <viz:position x="-91.18845" y="40.18121" z="0.0"></viz:position>
+        <viz:color r="233" g="83" b="83"></viz:color>
+      </node>
+      <node id="pro2851" label="Bush 10">
+        <attvalues>
+          <attvalue for="type" value="BLONDE"></attvalue>
+          <attvalue for="brewery" value="Brasserie Dubuisson"></attvalue>
+          <attvalue for="category" value="Bieres bouteille"></attvalue>
+          <attvalue for="alcool" value="1"></attvalue>
+          <attvalue for="class" value="product"></attvalue>
+          <attvalue for="weight" value="1.85"></attvalue>
+          <attvalue for="modularity_class" value="3"></attvalue>
+          <attvalue for="eccentricity" value="5.0"></attvalue>
+          <attvalue for="closnesscentrality" value="2.0972222222222223"></attvalue>
+          <attvalue for="betweenesscentrality" value="46.18063213589528"></attvalue>
+          <attvalue for="ISOMETRIC_Z_VALUE" value="0"></attvalue>
+        </attvalues>
+        <viz:size value="7.333192"></viz:size>
+        <viz:position x="61.03708" y="49.678253" z="0.0"></viz:position>
+        <viz:color r="233" g="83" b="83"></viz:color>
+      </node>
+      <node id="pro2852" label="Gauloise 10">
+        <attvalues>
+          <attvalue for="type" value="BLONDE"></attvalue>
+          <attvalue for="brewery" value="Brasserie du Bocq"></attvalue>
+          <attvalue for="category" value="Bieres bouteille"></attvalue>
+          <attvalue for="alcool" value="1"></attvalue>
+          <attvalue for="class" value="product"></attvalue>
+          <attvalue for="weight" value="1.85"></attvalue>
+          <attvalue for="modularity_class" value="3"></attvalue>
+          <attvalue for="eccentricity" value="5.0"></attvalue>
+          <attvalue for="closnesscentrality" value="2.0972222222222223"></attvalue>
+          <attvalue for="betweenesscentrality" value="80.29539682539681"></attvalue>
+          <attvalue for="ISOMETRIC_Z_VALUE" value="0"></attvalue>
+        </attvalues>
+        <viz:size value="9.056778"></viz:size>
+        <viz:position x="34.816383" y="36.514523" z="0.0"></viz:position>
+        <viz:color r="233" g="83" b="83"></viz:color>
+      </node>
+      <node id="pro3136" label="Averbode">
+        <attvalues>
+          <attvalue for="type" value="BLONDE"></attvalue>
+          <attvalue for="brewery" value="Abbaye d'Averbode"></attvalue>
+          <attvalue for="category" value="Bieres bouteille"></attvalue>
+          <attvalue for="alcool" value="1"></attvalue>
+          <attvalue for="class" value="product"></attvalue>
+          <attvalue for="weight" value="1.8"></attvalue>
+          <attvalue for="modularity_class" value="3"></attvalue>
+          <attvalue for="eccentricity" value="5.0"></attvalue>
+          <attvalue for="closnesscentrality" value="2.125"></attvalue>
+          <attvalue for="betweenesscentrality" value="71.0"></attvalue>
+          <attvalue for="ISOMETRIC_Z_VALUE" value="0"></attvalue>
+        </attvalues>
+        <viz:size value="8.587145"></viz:size>
+        <viz:position x="-74.108086" y="73.606384" z="0.0"></viz:position>
+        <viz:color r="233" g="83" b="83"></viz:color>
+      </node>
+      <node id="pro3383" label="Chouffe Soleil">
+        <attvalues>
+          <attvalue for="type" value="BLONDE"></attvalue>
+          <attvalue for="brewery" value="Brasserie d'Achouffe"></attvalue>
+          <attvalue for="category" value="Bieres bouteille"></attvalue>
+          <attvalue for="alcool" value="1"></attvalue>
+          <attvalue for="class" value="product"></attvalue>
+          <attvalue for="weight" value="1.75"></attvalue>
+          <attvalue for="modularity_class" value="3"></attvalue>
+          <attvalue for="eccentricity" value="4.0"></attvalue>
+          <attvalue for="closnesscentrality" value="1.9861111111111112"></attvalue>
+          <attvalue for="betweenesscentrality" value="89.68725662194704"></attvalue>
+          <attvalue for="ISOMETRIC_Z_VALUE" value="0"></attvalue>
+        </attvalues>
+        <viz:size value="9.531284"></viz:size>
+        <viz:position x="-78.510994" y="-25.093822" z="0.0"></viz:position>
+        <viz:color r="233" g="83" b="83"></viz:color>
+      </node>
+      <node id="pro3425" label="Pink Killer">
+        <attvalues>
+          <attvalue for="type" value="FRUITEE"></attvalue>
+          <attvalue for="brewery" value="Brasserie de Silly"></attvalue>
+          <attvalue for="category" value="Bieres bouteille"></attvalue>
+          <attvalue for="alcool" value="1"></attvalue>
+          <attvalue for="class" value="product"></attvalue>
+          <attvalue for="weight" value="1.15"></attvalue>
+          <attvalue for="modularity_class" value="1"></attvalue>
+          <attvalue for="eccentricity" value="5.0"></attvalue>
+          <attvalue for="closnesscentrality" value="3.1805555555555554"></attvalue>
+          <attvalue for="betweenesscentrality" value="16.66021630874572"></attvalue>
+          <attvalue for="ISOMETRIC_Z_VALUE" value="0"></attvalue>
+        </attvalues>
+        <viz:size value="5.841727"></viz:size>
+        <viz:position x="327.21777" y="-259.66998" z="0.0"></viz:position>
+        <viz:color r="83" g="233" b="233"></viz:color>
+      </node>
+      <node id="pro3426" label="Warsteiner">
+        <attvalues>
+          <attvalue for="type" value="BLONDE"></attvalue>
+          <attvalue for="brewery" value="Brasserie Warsteiner"></attvalue>
+          <attvalue for="category" value="Bieres bouteille"></attvalue>
+          <attvalue for="alcool" value="1"></attvalue>
+          <attvalue for="class" value="product"></attvalue>
+          <attvalue for="weight" value="1.15"></attvalue>
+          <attvalue for="modularity_class" value="3"></attvalue>
+          <attvalue for="eccentricity" value="5.0"></attvalue>
+          <attvalue for="closnesscentrality" value="2.125"></attvalue>
+          <attvalue for="betweenesscentrality" value="71.0"></attvalue>
+          <attvalue for="ISOMETRIC_Z_VALUE" value="0"></attvalue>
+        </attvalues>
+        <viz:size value="8.587145"></viz:size>
+        <viz:position x="-15.8713455" y="100.98657" z="0.0"></viz:position>
+        <viz:color r="233" g="83" b="83"></viz:color>
+      </node>
+      <node id="pro3762" label="Piraat">
+        <attvalues>
+          <attvalue for="type" value="AMBREE"></attvalue>
+          <attvalue for="brewery" value="Brasserie Van Steenberge"></attvalue>
+          <attvalue for="category" value="Bieres bouteille"></attvalue>
+          <attvalue for="alcool" value="1"></attvalue>
+          <attvalue for="class" value="product"></attvalue>
+          <attvalue for="weight" value="1.65"></attvalue>
+          <attvalue for="modularity_class" value="2"></attvalue>
+          <attvalue for="eccentricity" value="5.0"></attvalue>
+          <attvalue for="closnesscentrality" value="3.111111111111111"></attvalue>
+          <attvalue for="betweenesscentrality" value="32.156115779645184"></attvalue>
+          <attvalue for="ISOMETRIC_Z_VALUE" value="0"></attvalue>
+        </attvalues>
+        <viz:size value="6.624629"></viz:size>
+        <viz:position x="124.669846" y="-490.41772" z="0.0"></viz:position>
+        <viz:color r="158" g="83" b="233"></viz:color>
+      </node>
+      <node id="pro3775" label="La Corne">
+        <attvalues>
+          <attvalue for="type" value="BLONDE"></attvalue>
+          <attvalue for="brewery" value="Brasserie de la Corne du Bois des Pendus"></attvalue>
+          <attvalue for="category" value="Bieres bouteille"></attvalue>
+          <attvalue for="alcool" value="1"></attvalue>
+          <attvalue for="class" value="product"></attvalue>
+          <attvalue for="weight" value="1.95"></attvalue>
+          <attvalue for="modularity_class" value="3"></attvalue>
+          <attvalue for="eccentricity" value="5.0"></attvalue>
+          <attvalue for="closnesscentrality" value="2.125"></attvalue>
+          <attvalue for="betweenesscentrality" value="71.0"></attvalue>
+          <attvalue for="ISOMETRIC_Z_VALUE" value="0"></attvalue>
+        </attvalues>
+        <viz:size value="8.587145"></viz:size>
+        <viz:position x="40.63481" y="75.408936" z="0.0"></viz:position>
+        <viz:color r="233" g="83" b="83"></viz:color>
+      </node>
+      <node id="pro4014" label="Surfine">
+        <attvalues>
+          <attvalue for="type" value="BLONDE"></attvalue>
+          <attvalue for="brewery" value="Brasserie Dubuisson"></attvalue>
+          <attvalue for="category" value="Bieres bouteille"></attvalue>
+          <attvalue for="alcool" value="1"></attvalue>
+          <attvalue for="class" value="product"></attvalue>
+          <attvalue for="weight" value="1.45"></attvalue>
+          <attvalue for="modularity_class" value="3"></attvalue>
+          <attvalue for="eccentricity" value="5.0"></attvalue>
+          <attvalue for="closnesscentrality" value="2.0972222222222223"></attvalue>
+          <attvalue for="betweenesscentrality" value="46.18063213589528"></attvalue>
+          <attvalue for="ISOMETRIC_Z_VALUE" value="0"></attvalue>
+        </attvalues>
+        <viz:size value="7.333192"></viz:size>
+        <viz:position x="34.190876" y="7.5757356" z="0.0"></viz:position>
+        <viz:color r="233" g="83" b="83"></viz:color>
+      </node>
+      <node id="pro4206" label="Chimay Doree">
+        <attvalues>
+          <attvalue for="type" value="BLONDE"></attvalue>
+          <attvalue for="brewery" value="Abbaye de Chimay"></attvalue>
+          <attvalue for="category" value="Bieres bouteille"></attvalue>
+          <attvalue for="alcool" value="1"></attvalue>
+          <attvalue for="class" value="product"></attvalue>
+          <attvalue for="weight" value="1.6"></attvalue>
+          <attvalue for="modularity_class" value="3"></attvalue>
+          <attvalue for="eccentricity" value="4.0"></attvalue>
+          <attvalue for="closnesscentrality" value="1.9722222222222223"></attvalue>
+          <attvalue for="betweenesscentrality" value="163.99442196176716"></attvalue>
+          <attvalue for="ISOMETRIC_Z_VALUE" value="0"></attvalue>
+        </attvalues>
+        <viz:size value="13.285518"></viz:size>
+        <viz:position x="-29.765285" y="-62.600048" z="0.0"></viz:position>
+        <viz:color r="233" g="83" b="83"></viz:color>
+      </node>
+      <node id="pro457" label="Cuvee des Trolls">
+        <attvalues>
+          <attvalue for="type" value="BLONDE"></attvalue>
+          <attvalue for="brewery" value="Brasserie Dubuisson"></attvalue>
+          <attvalue for="category" value="Bieres pression"></attvalue>
+          <attvalue for="alcool" value="1"></attvalue>
+          <attvalue for="class" value="product"></attvalue>
+          <attvalue for="weight" value="1.69"></attvalue>
+          <attvalue for="modularity_class" value="3"></attvalue>
+          <attvalue for="eccentricity" value="5.0"></attvalue>
+          <attvalue for="closnesscentrality" value="2.0972222222222223"></attvalue>
+          <attvalue for="betweenesscentrality" value="46.18063213589528"></attvalue>
+          <attvalue for="ISOMETRIC_Z_VALUE" value="0"></attvalue>
+        </attvalues>
+        <viz:size value="7.333192"></viz:size>
+        <viz:position x="61.32889" y="-5.569604" z="0.0"></viz:position>
+        <viz:color r="233" g="83" b="83"></viz:color>
+      </node>
+      <node id="pro458" label="Delirium Tremens">
+        <attvalues>
+          <attvalue for="type" value="BLONDE"></attvalue>
+          <attvalue for="brewery" value="Brasserie Huyghe"></attvalue>
+          <attvalue for="category" value="Bieres pression"></attvalue>
+          <attvalue for="alcool" value="1"></attvalue>
+          <attvalue for="class" value="product"></attvalue>
+          <attvalue for="weight" value="1.8"></attvalue>
+          <attvalue for="modularity_class" value="3"></attvalue>
+          <attvalue for="eccentricity" value="4.0"></attvalue>
+          <attvalue for="closnesscentrality" value="1.9861111111111112"></attvalue>
+          <attvalue for="betweenesscentrality" value="53.153945771290964"></attvalue>
+          <attvalue for="ISOMETRIC_Z_VALUE" value="0"></attvalue>
+        </attvalues>
+        <viz:size value="7.685506"></viz:size>
+        <viz:position x="-28.072613" y="1.6643778" z="0.0"></viz:position>
+        <viz:color r="233" g="83" b="83"></viz:color>
+      </node>
+      <node id="pro466" label="Triple Karmeliet">
+        <attvalues>
+          <attvalue for="type" value="BLONDE"></attvalue>
+          <attvalue for="brewery" value="Brasserie Bosteels"></attvalue>
+          <attvalue for="category" value="Bieres pression"></attvalue>
+          <attvalue for="alcool" value="1"></attvalue>
+          <attvalue for="class" value="product"></attvalue>
+          <attvalue for="weight" value="1.8"></attvalue>
+          <attvalue for="modularity_class" value="3"></attvalue>
+          <attvalue for="eccentricity" value="5.0"></attvalue>
+          <attvalue for="closnesscentrality" value="2.0833333333333335"></attvalue>
+          <attvalue for="betweenesscentrality" value="113.36984126984126"></attvalue>
+          <attvalue for="ISOMETRIC_Z_VALUE" value="0"></attvalue>
+        </attvalues>
+        <viz:size value="10.727804"></viz:size>
+        <viz:position x="24.064734" y="-49.37822" z="0.0"></viz:position>
+        <viz:color r="233" g="83" b="83"></viz:color>
+      </node>
+      <node id="pro697" label="Mc Chouffe">
+        <attvalues>
+          <attvalue for="type" value="BRUNE"></attvalue>
+          <attvalue for="brewery" value="Brasserie d'Achouffe"></attvalue>
+          <attvalue for="category" value="Bieres pression"></attvalue>
+          <attvalue for="alcool" value="1"></attvalue>
+          <attvalue for="class" value="product"></attvalue>
+          <attvalue for="weight" value="1.9"></attvalue>
+          <attvalue for="modularity_class" value="0"></attvalue>
+          <attvalue for="eccentricity" value="5.0"></attvalue>
+          <attvalue for="closnesscentrality" value="2.9444444444444446"></attvalue>
+          <attvalue for="betweenesscentrality" value="88.91659921863483"></attvalue>
+          <attvalue for="ISOMETRIC_Z_VALUE" value="0"></attvalue>
+        </attvalues>
+        <viz:size value="9.492349"></viz:size>
+        <viz:position x="-56.97414" y="-588.96014" z="0.0"></viz:position>
+        <viz:color r="158" g="233" b="83"></viz:color>
+      </node>
+      <node id="pro1401" label="Gauloise Rouge">
+        <attvalues>
+          <attvalue for="type" value="FRUITEE"></attvalue>
+          <attvalue for="brewery" value="Brasserie du Bocq"></attvalue>
+          <attvalue for="category" value="Bieres pression"></attvalue>
+          <attvalue for="alcool" value="1"></attvalue>
+          <attvalue for="class" value="product"></attvalue>
+          <attvalue for="weight" value="1.85"></attvalue>
+          <attvalue for="modularity_class" value="1"></attvalue>
+          <attvalue for="eccentricity" value="5.0"></attvalue>
+          <attvalue for="closnesscentrality" value="3.236111111111111"></attvalue>
+          <attvalue for="betweenesscentrality" value="17.47587301587301"></attvalue>
+          <attvalue for="ISOMETRIC_Z_VALUE" value="0"></attvalue>
+        </attvalues>
+        <viz:size value="5.8829365"></viz:size>
+        <viz:position x="336.40338" y="-210.52704" z="0.0"></viz:position>
+        <viz:color r="83" g="233" b="233"></viz:color>
+      </node>
+      <node id="pro1402" label="Kwak">
+        <attvalues>
+          <attvalue for="type" value="AMBREE"></attvalue>
+          <attvalue for="brewery" value="Brasserie Bosteels"></attvalue>
+          <attvalue for="category" value="Bieres pression"></attvalue>
+          <attvalue for="alcool" value="1"></attvalue>
+          <attvalue for="class" value="product"></attvalue>
+          <attvalue for="weight" value="1.7"></attvalue>
+          <attvalue for="modularity_class" value="2"></attvalue>
+          <attvalue for="eccentricity" value="5.0"></attvalue>
+          <attvalue for="closnesscentrality" value="3.25"></attvalue>
+          <attvalue for="betweenesscentrality" value="25.769841269841272"></attvalue>
+          <attvalue for="ISOMETRIC_Z_VALUE" value="0"></attvalue>
+        </attvalues>
+        <viz:size value="6.3019743"></viz:size>
+        <viz:position x="131.53308" y="-465.0925" z="0.0"></viz:position>
+        <viz:color r="158" g="83" b="233"></viz:color>
+      </node>
+      <node id="pro1403" label="Barbar Blonde">
+        <attvalues>
+          <attvalue for="type" value="BLONDE"></attvalue>
+          <attvalue for="brewery" value="Brasserie Lefebvre"></attvalue>
+          <attvalue for="category" value="Bieres pression"></attvalue>
+          <attvalue for="alcool" value="1"></attvalue>
+          <attvalue for="class" value="product"></attvalue>
+          <attvalue for="weight" value="1.6"></attvalue>
+          <attvalue for="modularity_class" value="3"></attvalue>
+          <attvalue for="eccentricity" value="5.0"></attvalue>
+          <attvalue for="closnesscentrality" value="2.125"></attvalue>
+          <attvalue for="betweenesscentrality" value="35.0"></attvalue>
+          <attvalue for="ISOMETRIC_Z_VALUE" value="0"></attvalue>
+        </attvalues>
+        <viz:size value="6.768311"></viz:size>
+        <viz:position x="-29.355986" y="38.229683" z="0.0"></viz:position>
+        <viz:color r="233" g="83" b="83"></viz:color>
+      </node>
+      <node id="pro1667" label="Barbar Bok">
+        <attvalues>
+          <attvalue for="type" value="BLONDE"></attvalue>
+          <attvalue for="brewery" value="Brasserie Lefebvre"></attvalue>
+          <attvalue for="category" value="Bieres pression"></attvalue>
+          <attvalue for="alcool" value="1"></attvalue>
+          <attvalue for="class" value="product"></attvalue>
+          <attvalue for="weight" value="1.6"></attvalue>
+          <attvalue for="modularity_class" value="3"></attvalue>
+          <attvalue for="eccentricity" value="5.0"></attvalue>
+          <attvalue for="closnesscentrality" value="2.125"></attvalue>
+          <attvalue for="betweenesscentrality" value="35.0"></attvalue>
+          <attvalue for="ISOMETRIC_Z_VALUE" value="0"></attvalue>
+        </attvalues>
+        <viz:size value="6.768311"></viz:size>
+        <viz:position x="-32.39579" y="68.4521" z="0.0"></viz:position>
+        <viz:color r="233" g="83" b="83"></viz:color>
+      </node>
+      <node id="pro1796" label="Chouffe Soleil Pression">
+        <attvalues>
+          <attvalue for="type" value="BLONDE"></attvalue>
+          <attvalue for="brewery" value="Brasserie d'Achouffe"></attvalue>
+          <attvalue for="category" value="Bieres pression"></attvalue>
+          <attvalue for="alcool" value="1"></attvalue>
+          <attvalue for="class" value="product"></attvalue>
+          <attvalue for="weight" value="1.85"></attvalue>
+          <attvalue for="modularity_class" value="3"></attvalue>
+          <attvalue for="eccentricity" value="4.0"></attvalue>
+          <attvalue for="closnesscentrality" value="1.9861111111111112"></attvalue>
+          <attvalue for="betweenesscentrality" value="89.68725662194704"></attvalue>
+          <attvalue for="ISOMETRIC_Z_VALUE" value="0"></attvalue>
+        </attvalues>
+        <viz:size value="9.531284"></viz:size>
+        <viz:position x="-59.57213" y="-50.46585" z="0.0"></viz:position>
+        <viz:color r="233" g="83" b="83"></viz:color>
+      </node>
+      <node id="pro1999" label="Delirium Nocturnum">
+        <attvalues>
+          <attvalue for="type" value="BRUNE"></attvalue>
+          <attvalue for="brewery" value="Brasserie Huyghe"></attvalue>
+          <attvalue for="category" value="Bieres pression"></attvalue>
+          <attvalue for="alcool" value="1"></attvalue>
+          <attvalue for="class" value="product"></attvalue>
+          <attvalue for="weight" value="1.8"></attvalue>
+          <attvalue for="modularity_class" value="0"></attvalue>
+          <attvalue for="eccentricity" value="5.0"></attvalue>
+          <attvalue for="closnesscentrality" value="2.8472222222222223"></attvalue>
+          <attvalue for="betweenesscentrality" value="212.17918701983703"></attvalue>
+          <attvalue for="ISOMETRIC_Z_VALUE" value="0"></attvalue>
+        </attvalues>
+        <viz:size value="15.719966"></viz:size>
+        <viz:position x="-34.778465" y="-579.3648" z="0.0"></viz:position>
+        <viz:color r="158" g="233" b="83"></viz:color>
+      </node>
+      <node id="pro2172" label="Guillotine">
+        <attvalues>
+          <attvalue for="type" value="BLONDE"></attvalue>
+          <attvalue for="brewery" value="Brasserie Huyghe"></attvalue>
+          <attvalue for="category" value="Bieres pression"></attvalue>
+          <attvalue for="alcool" value="1"></attvalue>
+          <attvalue for="class" value="product"></attvalue>
+          <attvalue for="weight" value="1.7"></attvalue>
+          <attvalue for="modularity_class" value="3"></attvalue>
+          <attvalue for="eccentricity" value="4.0"></attvalue>
+          <attvalue for="closnesscentrality" value="1.9861111111111112"></attvalue>
+          <attvalue for="betweenesscentrality" value="53.153945771290964"></attvalue>
+          <attvalue for="ISOMETRIC_Z_VALUE" value="0"></attvalue>
+        </attvalues>
+        <viz:size value="7.685506"></viz:size>
+        <viz:position x="-0.009020994" y="7.179196" z="0.0"></viz:position>
+        <viz:color r="233" g="83" b="83"></viz:color>
+      </node>
+      <node id="pro2293" label="Silly Pils">
+        <attvalues>
+          <attvalue for="type" value="BLONDE"></attvalue>
+          <attvalue for="brewery" value="Brasserie de Silly"></attvalue>
+          <attvalue for="category" value="Bieres pression"></attvalue>
+          <attvalue for="alcool" value="1"></attvalue>
+          <attvalue for="class" value="product"></attvalue>
+          <attvalue for="weight" value="1.3"></attvalue>
+          <attvalue for="modularity_class" value="3"></attvalue>
+          <attvalue for="eccentricity" value="5.0"></attvalue>
+          <attvalue for="closnesscentrality" value="2.0555555555555554"></attvalue>
+          <attvalue for="betweenesscentrality" value="176.6622782446312"></attvalue>
+          <attvalue for="ISOMETRIC_Z_VALUE" value="0"></attvalue>
+        </attvalues>
+        <viz:size value="13.925539"></viz:size>
+        <viz:position x="52.651398" y="-35.692284" z="0.0"></viz:position>
+        <viz:color r="233" g="83" b="83"></viz:color>
+      </node>
+      <node id="pro2336" label="Delirium Red">
+        <attvalues>
+          <attvalue for="type" value="FRUITEE"></attvalue>
+          <attvalue for="brewery" value="Brasserie Huyghe"></attvalue>
+          <attvalue for="category" value="Bieres pression"></attvalue>
+          <attvalue for="alcool" value="1"></attvalue>
+          <attvalue for="class" value="product"></attvalue>
+          <attvalue for="weight" value="1.8"></attvalue>
+          <attvalue for="modularity_class" value="1"></attvalue>
+          <attvalue for="eccentricity" value="4.0"></attvalue>
+          <attvalue for="closnesscentrality" value="3.0416666666666665"></attvalue>
+          <attvalue for="betweenesscentrality" value="76.79197536324472"></attvalue>
+          <attvalue for="ISOMETRIC_Z_VALUE" value="0"></attvalue>
+        </attvalues>
+        <viz:size value="8.879774"></viz:size>
+        <viz:position x="297.6278" y="-240.85022" z="0.0"></viz:position>
+        <viz:color r="83" g="233" b="233"></viz:color>
+      </node>
+      <node id="pro2853" label="Peche Mel Bush Pression">
+        <attvalues>
+          <attvalue for="type" value="FRUITEE"></attvalue>
+          <attvalue for="brewery" value="Brasserie Dubuisson"></attvalue>
+          <attvalue for="category" value="Bieres pression"></attvalue>
+          <attvalue for="alcool" value="1"></attvalue>
+          <attvalue for="class" value="product"></attvalue>
+          <attvalue for="weight" value="1.75"></attvalue>
+          <attvalue for="modularity_class" value="1"></attvalue>
+          <attvalue for="eccentricity" value="5.0"></attvalue>
+          <attvalue for="closnesscentrality" value="3.236111111111111"></attvalue>
+          <attvalue for="betweenesscentrality" value="6.579051796157059"></attvalue>
+          <attvalue for="ISOMETRIC_Z_VALUE" value="0"></attvalue>
+        </attvalues>
+        <viz:size value="5.3323946"></viz:size>
+        <viz:position x="330.62503" y="-226.6386" z="0.0"></viz:position>
+        <viz:color r="83" g="233" b="233"></viz:color>
+      </node>
+      <node id="pro2872" label="Chimay Ambree">
+        <attvalues>
+          <attvalue for="type" value="AMBREE"></attvalue>
+          <attvalue for="brewery" value="Abbaye de Chimay"></attvalue>
+          <attvalue for="category" value="Bieres pression"></attvalue>
+          <attvalue for="alcool" value="1"></attvalue>
+          <attvalue for="class" value="product"></attvalue>
+          <attvalue for="weight" value="1.6"></attvalue>
+          <attvalue for="modularity_class" value="2"></attvalue>
+          <attvalue for="eccentricity" value="5.0"></attvalue>
+          <attvalue for="closnesscentrality" value="3.111111111111111"></attvalue>
+          <attvalue for="betweenesscentrality" value="32.156115779645184"></attvalue>
+          <attvalue for="ISOMETRIC_Z_VALUE" value="0"></attvalue>
+        </attvalues>
+        <viz:size value="6.624629"></viz:size>
+        <viz:position x="110.46649" y="-488.76636" z="0.0"></viz:position>
+        <viz:color r="158" g="83" b="233"></viz:color>
+      </node>
+      <node id="pro2886" label="Nice Chouffe">
+        <attvalues>
+          <attvalue for="type" value="BRUNE"></attvalue>
+          <attvalue for="brewery" value="Brasserie d'Achouffe"></attvalue>
+          <attvalue for="category" value="Bieres pression"></attvalue>
+          <attvalue for="alcool" value="1"></attvalue>
+          <attvalue for="class" value="product"></attvalue>
+          <attvalue for="weight" value="1.95"></attvalue>
+          <attvalue for="modularity_class" value="0"></attvalue>
+          <attvalue for="eccentricity" value="5.0"></attvalue>
+          <attvalue for="closnesscentrality" value="2.9444444444444446"></attvalue>
+          <attvalue for="betweenesscentrality" value="88.91659921863483"></attvalue>
+          <attvalue for="ISOMETRIC_Z_VALUE" value="0"></attvalue>
+        </attvalues>
+        <viz:size value="9.492349"></viz:size>
+        <viz:position x="-69.854" y="-597.13556" z="0.0"></viz:position>
+        <viz:color r="158" g="233" b="83"></viz:color>
+      </node>
+      <node id="pro3042" label="Maredsous 10">
+        <attvalues>
+          <attvalue for="type" value="BLONDE"></attvalue>
+          <attvalue for="brewery" value="Abbaye de Maredsous"></attvalue>
+          <attvalue for="category" value="Bieres pression"></attvalue>
+          <attvalue for="alcool" value="1"></attvalue>
+          <attvalue for="class" value="product"></attvalue>
+          <attvalue for="weight" value="1.98"></attvalue>
+          <attvalue for="modularity_class" value="3"></attvalue>
+          <attvalue for="eccentricity" value="5.0"></attvalue>
+          <attvalue for="closnesscentrality" value="2.125"></attvalue>
+          <attvalue for="betweenesscentrality" value="71.0"></attvalue>
+          <attvalue for="ISOMETRIC_Z_VALUE" value="0"></attvalue>
+        </attvalues>
+        <viz:size value="8.587145"></viz:size>
+        <viz:position x="-62.338154" y="14.1906805" z="0.0"></viz:position>
+        <viz:color r="233" g="83" b="83"></viz:color>
+      </node>
+      <node id="pro3431" label="Deliria">
+        <attvalues>
+          <attvalue for="type" value="BLONDE"></attvalue>
+          <attvalue for="brewery" value="Brasserie Huyghe"></attvalue>
+          <attvalue for="category" value="Bieres pression"></attvalue>
+          <attvalue for="alcool" value="1"></attvalue>
+          <attvalue for="class" value="product"></attvalue>
+          <attvalue for="weight" value="1.8"></attvalue>
+          <attvalue for="modularity_class" value="3"></attvalue>
+          <attvalue for="eccentricity" value="4.0"></attvalue>
+          <attvalue for="closnesscentrality" value="1.9861111111111112"></attvalue>
+          <attvalue for="betweenesscentrality" value="53.153945771290964"></attvalue>
+          <attvalue for="ISOMETRIC_Z_VALUE" value="0"></attvalue>
+        </attvalues>
+        <viz:size value="7.685506"></viz:size>
+        <viz:position x="-13.291438" y="-28.6285" z="0.0"></viz:position>
+        <viz:color r="233" g="83" b="83"></viz:color>
+      </node>
+      <node id="pro3676" label="Chouffe">
+        <attvalues>
+          <attvalue for="type" value="BLONDE"></attvalue>
+          <attvalue for="brewery" value="Brasserie d'Achouffe"></attvalue>
+          <attvalue for="category" value="Bieres pression"></attvalue>
+          <attvalue for="alcool" value="1"></attvalue>
+          <attvalue for="class" value="product"></attvalue>
+          <attvalue for="weight" value="1.98"></attvalue>
+          <attvalue for="modularity_class" value="3"></attvalue>
+          <attvalue for="eccentricity" value="4.0"></attvalue>
+          <attvalue for="closnesscentrality" value="1.9861111111111112"></attvalue>
+          <attvalue for="betweenesscentrality" value="89.68725662194704"></attvalue>
+          <attvalue for="ISOMETRIC_Z_VALUE" value="0"></attvalue>
+        </attvalues>
+        <viz:size value="9.531284"></viz:size>
+        <viz:position x="-46.796432" y="-24.267786" z="0.0"></viz:position>
+        <viz:color r="233" g="83" b="83"></viz:color>
+      </node>
+      <node id="pro4000" label="Delirium de Noel">
+        <attvalues>
+          <attvalue for="type" value="BLONDE"></attvalue>
+          <attvalue for="brewery" value="Brasserie Huyghe"></attvalue>
+          <attvalue for="category" value="Bieres pression"></attvalue>
+          <attvalue for="alcool" value="1"></attvalue>
+          <attvalue for="class" value="product"></attvalue>
+          <attvalue for="weight" value="1.8"></attvalue>
+          <attvalue for="modularity_class" value="3"></attvalue>
+          <attvalue for="eccentricity" value="4.0"></attvalue>
+          <attvalue for="closnesscentrality" value="1.9861111111111112"></attvalue>
+          <attvalue for="betweenesscentrality" value="53.153945771290964"></attvalue>
+          <attvalue for="ISOMETRIC_Z_VALUE" value="0"></attvalue>
+        </attvalues>
+        <viz:size value="7.685506"></viz:size>
+        <viz:position x="15.526197" y="-19.092396" z="0.0"></viz:position>
+        <viz:color r="233" g="83" b="83"></viz:color>
+      </node>
+      <node id="pro4133" label="Triple Moine">
+        <attvalues>
+          <attvalue for="type" value="BLONDE"></attvalue>
+          <attvalue for="brewery" value="Brasserie du Bocq"></attvalue>
+          <attvalue for="category" value="Bieres pression"></attvalue>
+          <attvalue for="alcool" value="1"></attvalue>
+          <attvalue for="class" value="product"></attvalue>
+          <attvalue for="weight" value="1.8"></attvalue>
+          <attvalue for="modularity_class" value="3"></attvalue>
+          <attvalue for="eccentricity" value="5.0"></attvalue>
+          <attvalue for="closnesscentrality" value="2.0972222222222223"></attvalue>
+          <attvalue for="betweenesscentrality" value="80.29539682539681"></attvalue>
+          <attvalue for="ISOMETRIC_Z_VALUE" value="0"></attvalue>
+        </attvalues>
+        <viz:size value="9.056778"></viz:size>
+        <viz:position x="71.206055" y="22.12083" z="0.0"></viz:position>
+        <viz:color r="233" g="83" b="83"></viz:color>
+      </node>
+      <node id="pro4247" label="Silly Red">
+        <attvalues>
+          <attvalue for="type" value="FRUITEE"></attvalue>
+          <attvalue for="brewery" value="Brasserie de Silly"></attvalue>
+          <attvalue for="category" value="Bieres pression"></attvalue>
+          <attvalue for="alcool" value="1"></attvalue>
+          <attvalue for="class" value="product"></attvalue>
+          <attvalue for="weight" value="1.7"></attvalue>
+          <attvalue for="modularity_class" value="1"></attvalue>
+          <attvalue for="eccentricity" value="5.0"></attvalue>
+          <attvalue for="closnesscentrality" value="3.1805555555555554"></attvalue>
+          <attvalue for="betweenesscentrality" value="16.66021630874572"></attvalue>
+          <attvalue for="ISOMETRIC_Z_VALUE" value="0"></attvalue>
+        </attvalues>
+        <viz:size value="5.841727"></viz:size>
+        <viz:position x="339.0205" y="-254.72119" z="0.0"></viz:position>
+        <viz:color r="83" g="233" b="233"></viz:color>
+      </node>
+    </nodes>
+    <edges>
+      <edge source="bre1" target="pro1399">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="bre1" target="pro4206">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="bre1" target="pro2872">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="bre2" target="pro3383">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="bre2" target="pro697">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="bre2" target="pro1796">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="bre2" target="pro2886">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="bre2" target="pro3676">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="bre3" target="pro1396">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="bre4" target="pro519">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="bre4" target="pro2852">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="bre4" target="pro1401">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="bre4" target="pro4133">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="bre5" target="pro890">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="bre5" target="pro2096">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="bre6" target="pro1394">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="bre7" target="pro1397">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="bre8" target="pro1395">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="bre8" target="pro2851">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="bre8" target="pro4014">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="bre8" target="pro457">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="bre8" target="pro2853">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="bre9" target="pro1398">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="bre10" target="pro1400">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="bre10" target="pro3425">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="bre10" target="pro2293">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="bre10" target="pro4247">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="bre11" target="pro1659">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="bre11" target="pro2022">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="bre12" target="pro2299">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="bre13" target="pro2335">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="bre13" target="pro2467">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="bre13" target="pro3762">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="bre14" target="pro2745">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="bre15" target="pro2840">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="bre16" target="pro2841">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="bre17" target="pro3136">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="bre19" target="pro3426">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="bre20" target="pro3775">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="bre21" target="pro458">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="bre21" target="pro1999">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="bre21" target="pro2172">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="bre21" target="pro2336">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="bre21" target="pro3431">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="bre21" target="pro4000">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="bre22" target="pro466">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="bre22" target="pro1402">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="bre23" target="pro1403">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="bre23" target="pro1667">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="bre24" target="pro3042">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="pro890" target="pro1394">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="pro890" target="pro1397">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="pro890" target="pro1398">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="pro890" target="pro2096">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="pro890" target="pro2467">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="pro890" target="pro2840">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="pro890" target="pro2841">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="pro890" target="pro2851">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="pro890" target="pro2852">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="pro890" target="pro3136">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="pro890" target="pro3383">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="pro890" target="pro3426">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="pro890" target="pro3775">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="pro890" target="pro4014">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="pro890" target="pro4206">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="pro890" target="pro1403">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="pro890" target="pro1667">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="pro890" target="pro1796">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="pro890" target="pro2172">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="pro890" target="pro2293">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="pro890" target="pro3042">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="pro890" target="pro3431">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="pro890" target="pro3676">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="pro890" target="pro4000">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="pro890" target="pro4133">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="pro1394" target="pro1397">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="pro1394" target="pro1398">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="pro1394" target="pro2096">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="pro1394" target="pro2467">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="pro1394" target="pro2840">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="pro1394" target="pro2841">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="pro1394" target="pro2851">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="pro1394" target="pro2852">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="pro1394" target="pro3136">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="pro1394" target="pro3383">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="pro1394" target="pro3426">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="pro1394" target="pro3775">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="pro1394" target="pro4014">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="pro1394" target="pro4206">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="pro1394" target="pro1403">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="pro1394" target="pro1667">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="pro1394" target="pro1796">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="pro1394" target="pro2172">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="pro1394" target="pro2293">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="pro1394" target="pro3042">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="pro1394" target="pro3431">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="pro1394" target="pro3676">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="pro1394" target="pro4000">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="pro1394" target="pro4133">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="pro1395" target="pro3425">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="pro1395" target="pro1401">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="pro1395" target="pro2336">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="pro1395" target="pro2853">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="pro1395" target="pro4247">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="pro1396" target="pro1399">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="pro1396" target="pro2022">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="pro1396" target="pro2299">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="pro1396" target="pro2335">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="pro1396" target="pro2745">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="pro1396" target="pro1999">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="pro1396" target="pro2886">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="pro1397" target="pro1398">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="pro1397" target="pro2096">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="pro1397" target="pro2467">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="pro1397" target="pro2840">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="pro1397" target="pro2841">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="pro1397" target="pro2851">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="pro1397" target="pro2852">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="pro1397" target="pro3136">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="pro1397" target="pro3383">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="pro1397" target="pro3426">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="pro1397" target="pro3775">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="pro1397" target="pro4014">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="pro1397" target="pro4206">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="pro1397" target="pro1403">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="pro1397" target="pro1667">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="pro1397" target="pro1796">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="pro1397" target="pro2172">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="pro1397" target="pro2293">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="pro1397" target="pro3042">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="pro1397" target="pro3431">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="pro1397" target="pro3676">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="pro1397" target="pro4000">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="pro1397" target="pro4133">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="pro1398" target="pro2096">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="pro1398" target="pro2467">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="pro1398" target="pro2840">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="pro1398" target="pro2841">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="pro1398" target="pro2851">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="pro1398" target="pro2852">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="pro1398" target="pro3136">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="pro1398" target="pro3383">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="pro1398" target="pro3426">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="pro1398" target="pro3775">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="pro1398" target="pro4014">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="pro1398" target="pro4206">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="pro1398" target="pro1403">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="pro1398" target="pro1667">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="pro1398" target="pro1796">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="pro1398" target="pro2172">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="pro1398" target="pro2293">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="pro1398" target="pro3042">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="pro1398" target="pro3431">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="pro1398" target="pro3676">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="pro1398" target="pro4000">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="pro1398" target="pro4133">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="pro1399" target="pro2022">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="pro1399" target="pro2299">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="pro1399" target="pro2335">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="pro1399" target="pro2745">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="pro1399" target="pro1999">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="pro1399" target="pro2886">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="pro1400" target="pro1659">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="pro1400" target="pro3762">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="pro1400" target="pro1402">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="pro1400" target="pro2872">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="pro1659" target="pro3762">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="pro1659" target="pro2872">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="pro2022" target="pro2299">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="pro2022" target="pro2335">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="pro2022" target="pro2745">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="pro2022" target="pro2886">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="pro2096" target="pro2467">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="pro2096" target="pro2840">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="pro2096" target="pro2841">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="pro2096" target="pro2851">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="pro2096" target="pro2852">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="pro2096" target="pro3136">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="pro2096" target="pro3383">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="pro2096" target="pro3426">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="pro2096" target="pro3775">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="pro2096" target="pro4014">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="pro2096" target="pro4206">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="pro2096" target="pro2172">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="pro2096" target="pro2293">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="pro2096" target="pro3042">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="pro2096" target="pro3431">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="pro2096" target="pro3676">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="pro2096" target="pro4000">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="pro2096" target="pro4133">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="pro2299" target="pro2335">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="pro2299" target="pro2745">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="pro2299" target="pro2886">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="pro2335" target="pro2745">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="pro2335" target="pro2886">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="pro2467" target="pro2840">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="pro2467" target="pro2841">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="pro2467" target="pro2851">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="pro2467" target="pro2852">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="pro2467" target="pro3136">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="pro2467" target="pro3383">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="pro2467" target="pro3426">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="pro2467" target="pro3775">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="pro2467" target="pro4014">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="pro2467" target="pro4206">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="pro2467" target="pro3042">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="pro2467" target="pro3431">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="pro2467" target="pro3676">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="pro2467" target="pro4000">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="pro2467" target="pro4133">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="pro2745" target="pro2886">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="pro2840" target="pro2841">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="pro2840" target="pro2851">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="pro2840" target="pro2852">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="pro2840" target="pro3136">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="pro2840" target="pro3383">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="pro2840" target="pro3426">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="pro2840" target="pro3775">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="pro2840" target="pro4014">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="pro2840" target="pro4206">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="pro2840" target="pro3042">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="pro2840" target="pro3431">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="pro2840" target="pro3676">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="pro2840" target="pro4000">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="pro2840" target="pro4133">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="pro2841" target="pro2851">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="pro2841" target="pro2852">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="pro2841" target="pro3136">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="pro2841" target="pro3383">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="pro2841" target="pro3426">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="pro2841" target="pro3775">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="pro2841" target="pro4014">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="pro2841" target="pro4206">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="pro2841" target="pro3042">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="pro2841" target="pro3431">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="pro2841" target="pro3676">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="pro2841" target="pro4000">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="pro2841" target="pro4133">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="pro2851" target="pro2852">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="pro2851" target="pro3136">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="pro2851" target="pro3383">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="pro2851" target="pro3426">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="pro2851" target="pro3775">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="pro2851" target="pro4014">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="pro2851" target="pro4206">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="pro2851" target="pro3042">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="pro2851" target="pro3431">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="pro2851" target="pro3676">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="pro2851" target="pro4000">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="pro2851" target="pro4133">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="pro2852" target="pro3136">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="pro2852" target="pro3383">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="pro2852" target="pro3426">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="pro2852" target="pro3775">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="pro2852" target="pro4014">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="pro2852" target="pro4206">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="pro2852" target="pro3042">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="pro2852" target="pro3431">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="pro2852" target="pro3676">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="pro2852" target="pro4000">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="pro2852" target="pro4133">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="pro3136" target="pro3383">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="pro3136" target="pro3426">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="pro3136" target="pro3775">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="pro3136" target="pro4014">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="pro3136" target="pro4206">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="pro3136" target="pro3431">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="pro3136" target="pro3676">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="pro3136" target="pro4000">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="pro3136" target="pro4133">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="pro3383" target="pro3426">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="pro3383" target="pro3775">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="pro3383" target="pro4014">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="pro3383" target="pro4206">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="pro3383" target="pro3431">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="pro3383" target="pro3676">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="pro3383" target="pro4000">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="pro3383" target="pro4133">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="pro3425" target="pro4247">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="pro3426" target="pro3775">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="pro3426" target="pro4014">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="pro3426" target="pro4206">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="pro3426" target="pro3431">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="pro3426" target="pro3676">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="pro3426" target="pro4000">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="pro3426" target="pro4133">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="pro3775" target="pro4014">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="pro3775" target="pro4206">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="pro3775" target="pro4000">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="pro3775" target="pro4133">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="pro4014" target="pro4206">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="pro4014" target="pro4133">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="pro457" target="pro890">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="pro457" target="pro1394">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="pro457" target="pro1397">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="pro457" target="pro1398">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="pro457" target="pro2096">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="pro457" target="pro2467">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="pro457" target="pro2840">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="pro457" target="pro2841">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="pro457" target="pro2851">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="pro457" target="pro2852">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="pro457" target="pro3136">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="pro457" target="pro3383">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="pro457" target="pro3426">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="pro457" target="pro3775">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="pro457" target="pro4014">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="pro457" target="pro4206">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="pro457" target="pro458">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="pro457" target="pro466">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="pro457" target="pro1403">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="pro457" target="pro1667">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="pro457" target="pro1796">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="pro457" target="pro2172">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="pro457" target="pro2293">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="pro457" target="pro3042">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="pro457" target="pro3431">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="pro457" target="pro3676">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="pro457" target="pro4000">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="pro457" target="pro4133">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="pro458" target="pro890">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="pro458" target="pro1394">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="pro458" target="pro1397">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="pro458" target="pro1398">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="pro458" target="pro2096">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="pro458" target="pro2467">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="pro458" target="pro2840">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="pro458" target="pro2841">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="pro458" target="pro2851">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="pro458" target="pro2852">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="pro458" target="pro3136">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="pro458" target="pro3383">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="pro458" target="pro3426">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="pro458" target="pro3775">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="pro458" target="pro4014">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="pro458" target="pro4206">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="pro458" target="pro466">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="pro458" target="pro1403">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="pro458" target="pro1667">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="pro458" target="pro1796">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="pro458" target="pro2172">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="pro458" target="pro2293">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="pro458" target="pro3042">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="pro458" target="pro3431">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="pro458" target="pro3676">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="pro458" target="pro4000">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="pro458" target="pro4133">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="pro466" target="pro890">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="pro466" target="pro1394">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="pro466" target="pro1397">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="pro466" target="pro1398">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="pro466" target="pro2096">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="pro466" target="pro2467">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="pro466" target="pro2840">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="pro466" target="pro2841">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="pro466" target="pro2851">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="pro466" target="pro2852">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="pro466" target="pro3136">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="pro466" target="pro3383">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="pro466" target="pro3426">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="pro466" target="pro3775">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="pro466" target="pro4014">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="pro466" target="pro4206">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="pro466" target="pro1403">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="pro466" target="pro1667">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="pro466" target="pro1796">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="pro466" target="pro2172">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="pro466" target="pro2293">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="pro466" target="pro3042">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="pro466" target="pro3431">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="pro466" target="pro3676">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="pro466" target="pro4000">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="pro466" target="pro4133">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="pro697" target="pro1396">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="pro697" target="pro1399">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="pro697" target="pro2022">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="pro697" target="pro2299">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="pro697" target="pro2335">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="pro697" target="pro2745">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="pro697" target="pro1999">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="pro697" target="pro2886">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="pro1401" target="pro3425">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="pro1401" target="pro2336">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="pro1401" target="pro2853">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="pro1401" target="pro4247">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="pro1402" target="pro1659">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="pro1402" target="pro3762">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="pro1402" target="pro2872">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="pro1403" target="pro2096">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="pro1403" target="pro2467">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="pro1403" target="pro2840">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="pro1403" target="pro2841">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="pro1403" target="pro2851">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="pro1403" target="pro2852">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="pro1403" target="pro3136">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="pro1403" target="pro3383">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="pro1403" target="pro3426">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="pro1403" target="pro3775">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="pro1403" target="pro4014">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="pro1403" target="pro4206">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="pro1403" target="pro1667">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="pro1403" target="pro1796">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="pro1403" target="pro2172">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="pro1403" target="pro2293">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="pro1403" target="pro3042">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="pro1403" target="pro3431">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="pro1403" target="pro3676">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="pro1403" target="pro4000">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="pro1403" target="pro4133">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="pro1667" target="pro2096">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="pro1667" target="pro2467">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="pro1667" target="pro2840">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="pro1667" target="pro2841">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="pro1667" target="pro2851">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="pro1667" target="pro2852">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="pro1667" target="pro3136">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="pro1667" target="pro3383">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="pro1667" target="pro3426">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="pro1667" target="pro3775">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="pro1667" target="pro4014">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="pro1667" target="pro4206">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="pro1667" target="pro1796">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="pro1667" target="pro2172">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="pro1667" target="pro2293">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="pro1667" target="pro3042">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="pro1667" target="pro3431">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="pro1667" target="pro3676">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="pro1667" target="pro4000">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="pro1667" target="pro4133">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="pro1796" target="pro2096">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="pro1796" target="pro2467">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="pro1796" target="pro2840">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="pro1796" target="pro2841">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="pro1796" target="pro2851">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="pro1796" target="pro2852">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="pro1796" target="pro3136">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="pro1796" target="pro3383">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="pro1796" target="pro3426">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="pro1796" target="pro3775">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="pro1796" target="pro4014">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="pro1796" target="pro4206">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="pro1796" target="pro2172">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="pro1796" target="pro2293">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="pro1796" target="pro3042">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="pro1796" target="pro3431">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="pro1796" target="pro3676">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="pro1796" target="pro4000">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="pro1796" target="pro4133">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="pro1999" target="pro2022">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="pro1999" target="pro2299">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="pro1999" target="pro2335">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="pro1999" target="pro2745">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="pro1999" target="pro2886">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="pro2172" target="pro2467">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="pro2172" target="pro2840">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="pro2172" target="pro2841">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="pro2172" target="pro2851">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="pro2172" target="pro2852">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="pro2172" target="pro3136">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="pro2172" target="pro3383">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="pro2172" target="pro3426">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="pro2172" target="pro3775">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="pro2172" target="pro4014">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="pro2172" target="pro4206">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="pro2172" target="pro2293">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="pro2172" target="pro3042">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="pro2172" target="pro3431">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="pro2172" target="pro3676">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="pro2172" target="pro4000">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="pro2172" target="pro4133">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="pro2293" target="pro2467">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="pro2293" target="pro2840">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="pro2293" target="pro2841">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="pro2293" target="pro2851">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="pro2293" target="pro2852">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="pro2293" target="pro3136">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="pro2293" target="pro3383">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="pro2293" target="pro3426">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="pro2293" target="pro3775">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="pro2293" target="pro4014">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="pro2293" target="pro4206">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="pro2293" target="pro3042">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="pro2293" target="pro3431">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="pro2293" target="pro3676">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="pro2293" target="pro4000">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="pro2293" target="pro4133">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="pro2336" target="pro3425">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="pro2336" target="pro2853">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="pro2336" target="pro4247">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="pro2853" target="pro3425">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="pro2853" target="pro4247">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="pro2872" target="pro3762">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="pro3042" target="pro3136">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="pro3042" target="pro3383">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="pro3042" target="pro3426">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="pro3042" target="pro3775">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="pro3042" target="pro4014">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="pro3042" target="pro4206">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="pro3042" target="pro3431">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="pro3042" target="pro3676">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="pro3042" target="pro4000">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="pro3042" target="pro4133">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="pro3431" target="pro3775">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="pro3431" target="pro4014">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="pro3431" target="pro4206">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="pro3431" target="pro3676">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="pro3431" target="pro4000">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="pro3431" target="pro4133">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="pro3676" target="pro3775">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="pro3676" target="pro4014">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="pro3676" target="pro4206">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="pro3676" target="pro4000">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="pro3676" target="pro4133">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="pro4000" target="pro4014">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="pro4000" target="pro4206">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="pro4000" target="pro4133">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="pro4133" target="pro4206">
+        <attvalues></attvalues>
+      </edge>
+    </edges>
+  </graph>
+</gexf>

@@ -1,0 +1,85 @@
+{% extends "layout.html" %}
+
+{% block title %}Graphiques - {{ name|capitalize }} - {{ layout|capitalize }}{% endblock %}
+
+
+{% block head %}
+<link rel="stylesheet" href="{{ static('assets/css/sigma.css') }}"/>
+{% endblock %}
+
+{% block content %}
+
+<div class="sigma-parent">
+  <div class="sigma-expand" id="sigma-canvas"></div>
+</div>
+<div id="mainpanel">
+  <div class="col">
+    <div id="maintitle"></div>
+    <div id="title"></div>
+    <div id="legend">
+      <div class="box">
+        <h3>Legend:</h3>
+        <dl>
+          <dt class="node"></dt>
+          <dd></dd>
+          <dt class="edge"></dt>
+          <dd></dd>
+          <dt class="colours"></dt>
+          <dd></dd>
+        </dl>
+      </div>
+    </div>
+    <div class="b1">
+      <form>
+        <div id="search" class="cf">
+          <div class="input-group">
+            <input type="text" class="form-control" placeholder="Search" name="search">
+            <div class="input-group-btn">
+              <button class="btn btn-default" type="submit"><span class="state"></span></button>
+            </div>
+          </div>
+          <div class="results"></div>
+        </div>
+        <div class="cf" id="attributeselect">
+          <div class="select"></div>
+          <div class="list cf"></div>
+        </div>
+      </form>
+    </div>
+  </div>
+  <div id="information">
+  </div>
+</div>
+<div id="zoom">
+  <div class="z" rel="in"></div> <div class="z" rel="out"></div> <div class="z" rel="center"></div>
+</div>
+</div>
+<div id="attributepane">
+  <div class="text">
+    <div title="Close" class="left-close returntext"><div class="c cf"><span>Return to the full network</span></div></div>
+    <!-- <div class="headertext"> -->
+      <!-- <span>Information Pane</span> -->
+    <!-- </div> -->
+    <div class="nodeattributes">
+      <div class="name"></div>
+      <div class="data"></div>
+      <div class="p">Connections:</div>
+      <div class="link">
+        <ul>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+{% endblock %}
+
+{% block foot %}
+
+<script>
+var path = "{{ static('public/graphs/' + name + '/' + layout + '/') }}";
+</script>
+
+<script src="{{ static('assets/js/sigma/sigma.min.js') }}"></script>
+<script src="{{ static('assets/js/sigma/sigma.parseJson.js') }}"></script>
+<script src="{{ static('assets/js/sigma.js') }}"></script>
+{% endblock %}

@@ -1,0 +1,31 @@
+Rapport du TD n°10 de SR01
+
+But du TD : 
+Interagir avec les signaux systèmes, on peut les traiter dans le programme à l’aide des fonctions signal() et sigaction().
+
+Exercice 1 : 
+Cet exercice nous permet de répondre aux deux questions : 
+Un signal peut interrompre l’exécution de sa propre routine de capture: NON. En effet si on fait un SIGINT puis un SIGQUIT, ce dernier est pris en compte de suite. En revanche si on refait un SIGINT par la suite, l’ordinateur va attendre la fin de SIGGUIT puis de SIGINT avant d’appeler le second SIGINT;
+
+Un signal peut interrompre le traitement d’un Autre signal: OUI. Même démonstration qu’au dessus.
+
+Exercice 2 :
+On reprend le code du TD8 f1.c pour créer un processus fils. Puis on envoie au père 100 signaux pour qu’il les traite.
+Alors l'arrivée de plusieurs signaux identiques va provoquer des appels successifs à la routine de capture de ce signal , ces appels étant mis en queue et exécutés l'un après l'autre. Il y a, donc, autant d'exécutions de la routine de capture que de signaux envoyés. Cependant si les temps d’attente usleep() sont écarté (celui de la routine > celui du corps) alors il y a moins de signaux captés par la routine. Donc il n’y aura pas toujours autant d’exécutions de la routine que de signaux envoyés.
+
+Exercice 3 :
+sigint.c : Dans cet exercice, le programme doit imprimer le nombre de secondes qui restaient à attendre et se mettre en attente pour le nombre correspondant.
+
+sigwait.c : Le fils fait un sleep(1), pour laisser au père le temps de rentrer dans un wait(). Puis le fils envoie 3 SIGINT au père, espacés de 1 seconde. Le père imprimera un message à chaque passage dans la routine de capture. Il devra donc imprimer 3 fois le message. Pour que cela fonctionne, il faut que le code du père gère la sortie du wait() anormale par "EINTR" et rerentre dans le wait().
+
+Exercice 4 :
+Les fonctions setjmp() et longjmp() sont utiles pour gérer les erreurs et les interruptions rencontrées dans des routines bas-niveau. setjmp() sauvegarde le contexte de pile et d'environnement dans env afin de l'utiliser ultérieurement avec longjmp(). Le contexte de pile sera invalide si la fonction qui appelle setjmp() se termine. 
+Le signal SIGSEGV correspond à une violation d'accès mémoire (tentative d'accéder à une adresse mémoire non définie dans l'espace virtuel courant).
+
+Les primitives setjmp() et longjmp() permettent de
+- sauver un état de l'environenment du process (setjmp),
+- revenir au point de sauvegarde (longjmp). 
+
+Dans ce programme on doit écrire la routine "probe(adr)" qui prend une adresse en argument, et retourne "1" si l'adresse est accessible en lecture et "0" si l'adresse est inaccessible.
+
+Exercice 5 :

@@ -1,0 +1,30 @@
+Rapport du TD n°8 de SR01
+
+But du TD :
+Manipuler les appels système processus, avec les fonctions de la librairie unistd.h. Faire appel aux variables d’environnement.
+
+Exercice 1 :
+Récupérer les id du processus courant ainsi que celui du parent (celui qui exécute le programme) et les afficher à l’écran. On peut aussi récupérer l’id du user.
+
+Exercice 2 :
+f1.c : Utilisation de la fonction fork() qui va créer un process fils qui va exécuter le même programme après l’appel de fork()
+
+f2.c : On souhaite ensuite créer deux process fils issu du même père. Pour ce faire on doit tester si on est dans le processus père, alors on refait un deuxième fork. On affiche les données à l’écran.
+
+f3.c : Utilisation de la fonction wait() pour attendre la fin du processus fils qu’on termine avec l’instruction exit(STATUS). 
+
+f4.c : De même on utilise cette fois la fonction waitpid() qui permet d’attendre l’arrêt d’un processus entré en paramètre. Le waitpid() prend en paramètre un pointeur sur le statut d’arrêt du processus attendu.
+
+Exercice 3 :
+Un programme est sectionné en plusieurs parties : TEXT, DATA, BSS… Dans cet exercice nous compilons un simple « Hello World » avec la commande objdump pour connaitre et visualiser le contenu des sections.
+objdump -h hello pour connaître les adresses des différentes sections (.TEXT, .DATA, .BSS).
+objdump -s hello | more pour visualiser le contenu des sections.
+objdump -d hello | more pour "désassembler" le contenu de la section .TEXT et visualiser les instructions qui la composent.
+
+Exercice 4 :
+On peut récupérer les variables d’environnement via la fonction main, le 3ème paramètre de la procédure : int main(int argc, char *argv[],char **envp) est un tableau de chaines de caractère.
+On peut aussi utiliser une variable c : environ qui est dans la librairie unistd.h
+
+Exercice 5 : 
+Interaction avec les variables d’environnement grâce aux fonctions getenv() et putenv().
+L’objectif est de permettre à l’utilisateur d’ajouter et modifier les variables d’environnement sans passer par le shell.

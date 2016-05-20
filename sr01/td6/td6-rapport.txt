@@ -1,0 +1,9 @@
+Rapport du TD n°6 de SR01
+
+But du TD :
+Compiler un programme composé de plusieurs fichiers sources grâce à l’utilisation d’un fichier makefile.
+
+Exercice 1 : 
+On récupère le travail du TD5, où nous avions créé une librairie de manipulation de chaines de caractères. Nous avons décomposé chaque fonction dans des fichiers sources différents.
+
+Ensuite nous avons écrit le fichier makefile complet dans un premier temps pour compiler le fichier string.c puis nous avons simplifié le makefile en utilisant les macros et les règles prédéfinies. Ainsi le fichier se retrouve allégé et la compréhension en est que simplifiée.

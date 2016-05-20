@@ -1,0 +1,1032 @@
+BL01
+Sciences Biologiques Pour L'Ingénieur
+6
+CS
+BL10
+Structures Et Physicochimie Des Molécules Biologiques
+6
+CS
+BL22
+Microbiologie Et Biologie Moléculaire
+6
+CS
+CM01
+Physique De La Matière
+6
+CS
+CM11
+Chimie Générale
+6
+CS
+CM12
+Chimie Physique Minérale
+6
+CS
+CM13
+Chimie Des Substances Organiques Et Biologiques
+6
+CS
+CM15
+Systèmes Colloïdaux - Applications Agroalimentaires
+6
+CS
+EL01
+Phénomènes Electromagnétiques
+6
+CS
+EN21
+Bases De L'électronique Analogique
+6
+CS
+IA02
+Résolution De Problèmes Et Programmation Logique
+6
+CS
+MQ01
+éléments De Résistance Des Matériaux
+6
+CS
+MQ03
+Mécanique Des Vibrations I
+6
+CS
+MQ17
+Introduction Aux Propriétés Mécaniques Et ‡ L'Ingénierie Des Matériaux
+6
+CS
+MQ18
+Cinématique Et Dynamique Des Systèmes
+6
+CS
+MT10
+Structures,Calcul Formel Et Algorithmes
+6
+CS
+MT12
+Méthodes Mathématiques Pour L'Analyse Du Signal Et De L'Image
+6
+CS
+MT22
+Fonctions De Plusieurs Variables Réelles Et Applications
+6
+CS
+MT23
+Algèbre Linéaire Et Applications
+6
+CS
+MT90
+Fonctions D'Une Variable Réelle 1
+4
+CS
+MT91
+Fonctions D'Une Variable Réelle 2
+3
+CS
+NF04
+Modélisation Numérique Des Problèmes De L'Ingénieur
+6
+CS
+NF16
+Algorithmique Et Structures De Données
+6
+CS
+PS04
+Thermodynamique
+6
+CS
+PS91
+Mécanique Physique
+6
+CS
+PS92
+Dynamique Des Systèmes Et Des Solides
+3
+CS
+PS93
+Optique Géométrique
+3
+CS
+PS94
+Eléctricite
+3
+CS
+RO03
+Recherche Opérationnelle, Optimisation Combinatoire
+6
+CS
+RR01
+Cinétique Chimique Et Réacteurs Homogènes
+6
+CS
+SR02
+Systèmes D'Exploitation : Des Concepts ‡ La Programmation
+6
+CS
+SY01
+éléments De Probabilités
+6
+CS
+SY02
+Méthodes Statistiques Pour L'Ingénieur
+6
+CS
+SY04
+Systèmes Asservis Linéaires : Analyse Et Commande
+6
+CS
+SY14
+éléments D'Automatique
+6
+CS
+TF01
+Mécanique Des Fluides Incompressibles
+6
+CS
+TF06
+Transfert De Chaleur
+6
+CS
+TN06
+Transmission Des Efforts En Mécanique
+6
+CS
+BA07
+Modes Opératoires De La Construction
+5
+TM
+BL09
+Biophysique Des Systèmes Biologiques
+6
+TM
+BM01
+Introduction ‡ L'Instrumentation Biomédicale
+5
+TM
+BT02
+Opérations Agro-Industrielles
+6
+TM
+C2I1
+Certificat Informatique Et Internet Niveau 1
+4
+TM
+CM70
+Travaux Pratiques De Gp (1)
+3
+TM
+DD02
+Introduction A L'Eco-Conception Et A L'Analyse De Cycle De Vie
+3
+TM
+EL02
+électricité Industrielle Appliquée
+6
+TM
+FQ01
+économie Globale Et Maitrise De La Qualité
+6
+TM
+GE37
+Gestion De Projet
+6
+TM
+LO01
+Bases De La Programmation
+6
+TM
+LO21
+Programmation Et Conception Orientées Objet
+6
+TM
+LO22
+Génie Logiciel
+6
+TM
+MT94
+Introduction Aux Mathématiques Appliquées
+6
+TM
+NF01
+Algorithmique Et Programmation
+6
+TM
+NF02
+Du Circuit Intégré Au Microprocesseur
+6
+TM
+NF15
+Microprocesseurs, Interfaces Et Logiciels De Bases
+6
+TM
+NF17
+Conception De Bases De Données
+6
+TM
+NF22
+Micro-Ordinateurs Et Applications
+6
+TM
+NF92
+Traitement Automatique De L'Information
+6
+TM
+NP90
+Nano-Projets
+2
+TM
+NX17
+Introduction Aux Bases De Données
+6
+TM
+PR
+Réalisation De Projet
+5
+TM
+PS09
+Acoustique Appliquée
+6
+TM
+PS90
+Introduction A La Mesure
+3
+TM
+TF14
+Les Opérations De Transfert De Matière
+6
+TM
+TN01
+éléments De Dessin Technique
+6
+TM
+TN02
+Introduction A La Conception Mécanique
+6
+TM
+TN03
+Fabrication Mécanique
+6
+TM
+TN04
+Réalisation
+4
+TM
+TN08
+Dessin De Communication
+5
+TM
+TN20
+CAO : Modélisation Géométrique
+6
+TM
+TN22
+éléments De Bureau D'études
+6
+TM
+TR91
+Techniques De Recherche D'Information Pour L’Ingénieur
+2
+TM
+TS01
+Maitrise Des Risques
+6
+TM
+TX
+étude Expérimentale
+5
+TM
+UB04
+Ambiances Et Environnement Lumineux
+5
+TM
+UR03
+Cartographie Sémiologie Graphique Et CAO/DAO
+5
+TM
+UR05
+Aménagement Et Environnement
+5
+TM
+AR03
+Art Et Technologies Contemporaines
+4
+TSH
+DI01
+Initiation Au Design Industriel
+4
+TSH
+DI02
+Initiation Au Design Graphique
+4
+TSH
+EI03
+Communication Interculturelle En Entreprises, Organisations Transnationales
+4
+TSH
+EI04
+Intelligence économique : Stratégie D'Entreprise, Démarche Et Outils
+4
+TSH
+EI05
+Science, Technologie Et Société Dans L'Union Européenne
+4
+TSH
+GE10
+économie Politique
+4
+TSH
+GE12
+Géographie Et économie Des Territoires
+4
+TSH
+GE13
+Les Risques Entre Technique Et Société
+4
+TSH
+GE15
+Initiation A La Création Et Gestion D'Entreprises Innovantes
+4
+TSH
+GE20
+économie Industrielle
+4
+TSH
+GE21
+économie Et Gestion De L'Innovation Et Du Numérique
+4
+TSH
+GE22
+économie Internationale
+4
+TSH
+GE23
+Transferts De Technologies Et Développements
+4
+TSH
+GE24
+Recherche Développement : Ingénieur Et Investisseurs
+4
+TSH
+GE25
+Gestion Et Organisation De La Production
+4
+TSH
+GE26
+Management Stratégique Des Ressources Humaines
+4
+TSH
+GE28
+économie Et Droit De La Propriété Intellectuelle (Industrielle Et Artistique) Dans Une économie Reposant Sur La Connaissance
+4
+TSH
+GE29
+Gestion Et Management International De L'Entreprise
+4
+TSH
+GE36
+Marketing
+4
+TSH
+GE90
+Organisation, Innovation Et International
+4
+TSH
+HE01
+épistémologie Et Histoire Des Sciences
+4
+TSH
+HE03
+Logique : Histoire Et Formalisme
+4
+TSH
+HE05
+Culture Et Histoire Des Techniques
+4
+TSH
+IC01
+Histoire Et Prospective Des Industries Culturelles
+4
+TSH
+IC03
+Le Numérique : Des Formats Aux Chaines De Production
+4
+TSH
+IC05
+Technologies Pour La Documentation Et L'Indexation Dans L'Hypermédia
+4
+TSH
+IC07
+Techniques Et Technologies Du Musical Et Du Sonore
+4
+TSH
+LA00
+Allemand Initiation
+4
+TSH
+LA01
+Allemand Niveau I
+4
+TSH
+LA02
+Allemand Niveau II
+4
+TSH
+LA03
+Allemand Niveau III
+4
+TSH
+LA04
+Pratique De La Communication En Allemand
+4
+TSH
+LA11
+Anglais Niveau I
+4
+TSH
+LA12
+Anglais Niveau II
+4
+TSH
+LA13
+Anglais Niveau III
+4
+TSH
+LA14
+Civilisation Du Monde Anglophone
+4
+TSH
+LA15
+Anglais Professionnel - Niveau V
+4
+TSH
+LA20
+Espagnol Initiation
+4
+TSH
+LA21
+Espagnol Niveau I
+4
+TSH
+LA22
+Espagnol Niveau II
+4
+TSH
+LA23
+Espagnol Niveau III
+4
+TSH
+LA24
+Le Monde Hispanique Contemporain : L'Amérique Latine (Niveau IV)
+4
+TSH
+LA91
+Français Langue étrangère Niveau I
+4
+TSH
+LA92
+Français Langue étrangère Niveau II
+4
+TSH
+LA93
+Français Langue étrangère Niveau III
+4
+TSH
+LA94
+Français Langue étrangère Niveau IV
+4
+TSH
+LB04
+Interculturalité Franco-Allemande
+4
+TSH
+LB14
+Interculturalité Appliquée Aux Pays Anglophones
+4
+TSH
+LB24
+Le Monde Hispanique (Niveau IV): L'Espagne
+4
+TSH
+LC14
+Communication Scientifique Et Technique En Anglais
+4
+TSH
+LG30
+Japonais Initiation
+4
+TSH
+LG31
+Japonais Niveau I
+4
+TSH
+LG40
+Portugais Initiation
+4
+TSH
+LG41
+Portugais Niveau I
+4
+TSH
+LG42
+Portugais Niveau II
+4
+TSH
+LG50
+Italien Initiation
+4
+TSH
+LG51
+Italien Niveau I
+4
+TSH
+LG52
+Italien Niveau II
+4
+TSH
+LG60
+Chinois Initiation
+4
+TSH
+LG61
+Chinois Niveau I
+4
+TSH
+MU01
+Pratique Instrumentale D'Ensemble
+4
+TSH
+MU02
+Pratique Instrumentale De Haut Niveau
+8
+TSH
+MU03
+Pratique Collective Des Musiques Contemporaines
+4
+TSH
+PH01
+Introduction ‡ La Philosophie
+4
+TSH
+PH09
+éthiques : Approche Pluridisciplinaire
+4
+TSH
+SA11
+Pratiques Théâtrales
+4
+TSH
+SC01
+Séminaire Interdisciplinaire De Sciences Et Technologies Cognitives
+4
+TSH
+SC11
+Théorie Des Sciences Cognitives : Computation Et Inaction
+4
+TSH
+SC12
+Technologie, Cognition, Perception
+4
+TSH
+SC21
+Linguistique Et Philosophie Du Langage
+4
+TSH
+SC22
+Sociologie Cognitive, Lien Social Et Techniques
+4
+TSH
+SI01
+Science Et Débat Public
+4
+TSH
+SI02
+Communication Professionnelle De L'Ingénieur
+4
+TSH
+SI05
+Theories De La Communication
+4
+TSH
+SI06
+La Documentation Cross-Media Pour Les Entreprises Et Les Collectivités Locales
+4
+TSH
+SI07
+Médias Classiques Et Médias Numériques
+4
+TSH
+SI11
+Expression Orale- Parole Publique
+4
+TSH
+SI14
+Parole Publique En Anglais
+4
+TSH
+SI20
+Rhétorique Et Arts Du Discours
+4
+TSH
+SI22
+Signes Et Contenus Numériques
+4
+TSH
+SI24
+études Des écritures Numériques Ordinaires
+4
+TSH
+SI28
+écriture Interactive Et Multimédia
+4
+TSH
+SI90
+Séminaire De Communication Des Connaissances Technologiques
+4
+TSH
+SL
+Suivi Linguistique
+4
+TSH
+SO04
+Initiation Au Droit
+4
+TSH
+SO05
+Sociologie, Organisations Et Dynamiques Des Collectifs
+4
+TSH
+SP01
+Un Corps Pour Comprendre Et Apprendre
+4
+TSH
+SP02
+Conduire Un Projet Sportif
+4
+TSH
+TN16
+étude Interculturelle
+4
+TSH
+TO01
+Module De Preparation Au TOEIC
+2
+TSH
+MT34
+Analyse 2 : Mesures, Intégrations, Probabilités
+6
+CS
+MT37
+Logiques, Quelques Approfondissements Mathématiques Et Philosophiques
+3
+CS
+MT38
+Probabilités
+3
+CS
+AP
+Atelier Projet
+6
+TM
+API06
+Analyse De Données Et Data Mining (Apprentissage)
+4
+CS
+API07
+Architecture Des Applications Internet, Programmation Web Et Sécurité (Apprentissage)
+3
+TM
+API08
+IHM Et Multimédia (Apprentissage)
+4
+TM
+API09
+Méthodes Et Outils Pour L'Optimisation Et La Simulation (Apprentissage)
+4
+CS
+API10
+Méthodes De Vérification Et Validation De Logiciel Et Programmation Sous Linux (Apprentissage)
+3
+TM
+BA01
+Equipements Techniques Du Bâtiment
+5
+TM
+BA02
+Gestion Technique Du Patrimoine Immobilier
+5
+TM
+BA04
+Conversion Et Gestion Des Energies Renouvelables
+6
+TM
+BA09
+Introduction Au Calcul Des Structures Du Bâtiment
+6
+CS
+BI01
+Modèles Pour La Bioinformatique
+6
+CS
+BL30
+Physiologie Des Systèmes Intégrés
+6
+CS
+BL40
+Génie Cellulaire
+6
+CS
+BM02
+Organes Artificiels Et Biorheologie
+6
+TM
+BM08
+Modélisation Des Systèmes Biomécaniques
+5
+TM
+BT06
+Analyse Des Produits Biologiques Et Alimentaires
+6
+TM
+BT10
+Risques Biologiques Et Sécurité Alimentaire
+5
+TM
+BT21
+Biotechnologies Moléculaires Et Génie Génétique
+6
+TM
+BT22
+Les Agroressources
+6
+TM
+CM06
+Calcul D'Une Opération Industrielle
+6
+TM
+CM40
+Catalyse Heterogene
+3
+CS
+CT02
+Maitrise Statistique Des Processus
+6
+TM
+CT04
+Contrôles Non Destructifs
+5
+TM
+DI03
+Conception Formelle Des Produits
+6
+TM
+DI05
+Méthodologie Et Analyse De La Valeur
+6
+TM
+DI06
+Analyse Des Produits De Consommation
+5
+TM
+EG01
+Ergonomie
+6
+TM
+EN14
+Fonctions Électroniques Pour L'Ingénieur
+6
+TM
+EV01
+Procédés De Traitement Des Déchets
+6
+TM
+FPP02
+Fiabilité Et Ingénierie Robuste De Produits (Apprentissage)
+3
+CS
+FQ07
+La Qualité Des Services A L'Industrie
+5
+TM
+GE38
+Management Et Outils D'Aide ‡ La Créativité Industrielle Et ‡ L'Innovation
+6
+TM
+GE39
+Management Et Marketing De L'Innovation
+6
+TM
+GPL01
+Gestion De Production Et ERP (Apprentissage)
+5
+TM
+IA04
+Systèmes Multiagents
+6
+TM
+LO17
+Indexation Et Recherche D'Information
+6
+TM
+LO18
+Projets Multimédia Pour La Formation
+6
+TM
+MAT03
+Mécanique Des Matériaux (Apprentissage)
+3
+CS
+MB11
+Révision D'Analyse Et D’Algèbre (Gb, Gi, Gsu)
+6
+CS
+MC01
+Machines Électriques
+6
+CS
+MC05
+Machines De Transfert De Fluides
+6
+TM
+MC07
+Électronique De Puissance
+6
+TM
+MEQ03
+Dynamique Des Solides (Apprentissage)
+3
+CS
+MI03
+Systèmes Temps Réel
+6
+TM
+MP02
+Introduction Aux Méthodes De La GPAO
+6
+TM
+MQ02
+Mécanique Des Solides Déformantes
+6
+CS
+MQ04
+Polymères
+6
+TM
+MQ06
+Modélisation Des Structures Par Éléments Finis
+6
+TM
+MQ08
+Elaboration Et Propriétés D'Usage Des Metaux
+6
+TM
+MQ09
+Mécanique Des Vibrations II
+6
+TM
+MQ10
+Comportement Mécanique Des Matériaux
+6
+TM
+MQ11
+Mise En Oeuvre Des Matériaux
+6
+TM
+MQ14
+Optimisation En Mécanique
+6
+TM
+MQ19
+Dynamique Des Structures
+6
+TM
+MS02
+Principes Physiques Des Capteurs Et Instrumentation
+6
+TM
+MS03
+Pratique Expérimentale En Acoustique Et Vibrations
+6
+TM
+NF11
+Théorie Des Langages De Programmation
+6
+CS
+NF24
+Modélisation Et Simulation Des Procedes
+6
+TM
+NF26
+Data Warehouse Et Outils Décisionnels
+6
+TM
+NF28
+Ingénierie Des Systèmes Interactifs
+6
+TM
+NF33
+Conception Et Architecture De Systèmes Numériques Informatiques
+6
+TM
+PS05
+Fondements De L'Acoustique Et Modélisations
+6
+CS
+RO04
+Optimisation Et Recherche Opérationnelle
+6
+CS
+SCI08
+Introduction A L’Ingénierie Système
+6
+TM
+SR03
+Architecture Des Applications Internet
+6
+TM
+SY05
+Conduite Des Procédés
+6
+TM
+SY06
+Analyse Et Traitement Du Signal
+6
+CS
+SY09
+Analyse Des Données Et Data Mining
+6
+CS
+SY12
+Modélisation Et Performance Des Systèmes De Production
+6
+TM
+SY15
+Automatique Avancée
+6
+CS
+SY26
+Télécommunications
+6
+TM
+TA02
+Évaluation Économique Des Procédés
+6
+TM
+TF07
+Calcul Des Échangeurs Thermiques Industriels
+6
+TM
+TF08
+Hydrodynamique Des Systèmes Dispersés
+6
+TM
+TMI01
+Conception Niveau 2 (Apprentissage)
+5
+TM
+TMI05
+Fabrication Assistée Par Ordinateur Et Machines A Commande Numérique (Apprentissage)
+3
+TM
+TN12
+Conception Mécanique
+6
+TM
+TN13
+Dimensionnement Pour La Conception Des Systèmes Mécaniques
+6
+TM
+TN15
+Création De Produit, D'Activité, D'Entreprise
+6
+TM
+TN24
+Technologies De Fabrication Et Outils Méthodes
+6
+TM
+TN29
+Outils De Définition Et De Développement De Systèmes
+6
+TM
+TN30
+CAO En Milieu Professionnel
+3
+TM
+UB02
+Systèmes De Transport Urbain
+5
+TM
+UB06
+Mises En Scènes Urbaines
+5
+TM
+UB08
+Hydrologie Urbaine
+6
+CS
+UR01
+Droit De L'Urbanisme, De La Construction Et De L'Environnement
+5
+TM
+UXD01
+Design D'Experience
+6
+TM

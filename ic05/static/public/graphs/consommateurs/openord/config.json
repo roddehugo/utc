@@ -1,0 +1,60 @@
+{
+  "type": "network",
+  "version": "1.0",
+  "data": "data.json",
+  "text": {
+    "maintitle": "Buyers",
+    "title": "OpenOrd"
+  },
+  "legend": {
+    "edgeLabel": "Relationships",
+    "colorLabel": "Modularity classes",
+    "nodeLabel": "Breweries, Products, Buyers"
+  },
+  "features": {
+    "search": true,
+    "groupSelectorAttribute": "Modularity Class",
+    "hoverBehavior": "hide"
+  },
+  "classes": {
+    "0": "Cidres et bières blanches",
+    "1": "Bières St-Feuillien Grand Cru",
+    "2": "Bières fruitées",
+    "3": "Bières Duvel",
+    "5": "Bières fortes",
+    "6": "Bières Scotch Silly",
+    "7": "Bières Cuvée des Trolls",
+    "8": "Bières Délirium Tremens",
+    "9": "Bières blondes",
+    "10": "Bières brunes",
+    "11": "Bières Barbar"
+  },
+  "informationPanel": {
+    "imageAttribute": false,
+    "groupByEdgeDirection": false
+  },
+  "sigma": {
+    "graphProperties": {
+      "minEdgeSize": 0.2,
+      "maxNodeSize": 7,
+      "maxEdgeSize": 0.5,
+      "minNodeSize": 1
+    },
+    "drawingProperties": {
+      "labelThreshold": 10,
+      "hoverFontStyle": "bold",
+      "defaultEdgeType": "curve",
+      "defaultLabelColor": "#000",
+      "defaultLabelHoverColor": "#fff",
+      "defaultLabelSize": 14,
+      "activeFontStyle": "bold",
+      "fontStyle": "bold",
+      "defaultHoverLabelBGColor": "#002147",
+      "defaultLabelBGColor": "#ddd"
+    },
+    "mouseProperties": {
+      "minRatio": 0.75,
+      "maxRatio": 20
+    }
+  }
+}

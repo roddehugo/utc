@@ -1,0 +1,55 @@
+{
+  "type": "network",
+  "version": "1.0",
+  "data": "data.json",
+  "text": {
+    "maintitle": "Breweries",
+    "title": "Layered Layout"
+  },
+  "legend": {
+    "edgeLabel": "Relationships",
+    "colorLabel": "Modularity classes",
+    "nodeLabel": "Breweries, Products"
+  },
+  "features": {
+    "search": true,
+    "groupSelectorAttribute": "type",
+    "hoverBehavior": "dim"
+  },
+  "classes": {
+    "undefined": "Brasseries",
+    "AMBREE": "Ambrées",
+    "BLANCHE": "Blanches",
+    "BLONDE": "Blondes",
+    "BRUNE": "Brunes",
+    "FRUITEE": "Fruitées"
+  },
+  "informationPanel": {
+    "imageAttribute": false,
+    "groupByEdgeDirection": false
+  },
+  "sigma": {
+    "graphProperties": {
+      "minEdgeSize": 0.2,
+      "maxNodeSize": 7,
+      "maxEdgeSize": 0.5,
+      "minNodeSize": 1
+    },
+    "drawingProperties": {
+      "labelThreshold": 10,
+      "hoverFontStyle": "bold",
+      "defaultEdgeType": "curve",
+      "defaultLabelColor": "#000",
+      "defaultLabelHoverColor": "#fff",
+      "defaultLabelSize": 14,
+      "activeFontStyle": "bold",
+      "fontStyle": "bold",
+      "defaultHoverLabelBGColor": "#002147",
+      "defaultLabelBGColor": "#ddd"
+    },
+    "mouseProperties": {
+      "minRatio": 0.75,
+      "maxRatio": 20
+    }
+  }
+}

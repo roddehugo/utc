@@ -1,0 +1,58 @@
+Rapport du TD n°7 de SR01
+
+But du TD : 
+Dans ce TD nous avons manipulé les E/S et processus systèmes avec les primitives systèmes suivantes :
+	- dup(fd)
+	- close(fd)
+	- open(path,flags[,mode])
+	- pipe(fd[2)
+avec fd un descripteur.
+
+Exercice 1 :
+Manipulation des E/S bas niveau (open, read, write, close) pour écrire et lire les données d’un tableau de 10 entiers dans un fichier et les afficher à l’écran. Soit en lisant par lot de 10 soit en lisant un par un dans une boucle for.
+
+Exercice 2:
+Manipulation des processus systèmes et des descripteurs.
+Le but de cet exercice est d’ajouter des lignes pour afficher à l’écran la dernière instruction printf. Sans les modifications celle-ci écrit dans un fichier. Nous avons utilisé deux méthodes différentes : 
+	1- avec open()
+	2- avec dup()
+1- Nous avons du ajouter les lignes suivantes :
+
+int rangfd = dup(fd);
+…
+…
+close(fd);
+close(rangfd);
+
+/*On ouvre le fichier correspondant à l'écran*/
+int new = open("/dev/tty", O_WRONLY);
+
+Ainsi on sauvegarde l’indice du descripteur dupliqué dans rangfd. Puis on ferme les deux descripteurs afin de libérer l’indice 1. Puis on ouvre de nouveau le fichier système correspondant à l'écran. Celui-ci va se mettre dans la première case libre du tableau des descripteurs.
+
+2- Nous avons ajouté les lignes suivantes :
+
+/*On sauvegarde le rang du descripteur STDOUT dupliqué*/
+int rangstd = dup(1);
+…
+close(1);
+…
+/*On sauvegarde le rang descripteur fd dupliqué = 1*/
+int rangfd = dup(fd);
+…
+/*On ferme le fichier fd*/
+close(fd);
+/*On ferme le rang dupliqué ci-dessus pour le libérer = 1*/
+close(rangfd);
+/*On remet le descripteur STDOUT dans le rang 1*/
+int new = dup(rangstd);
+
+Ainsi on sauvegarde l’indice du descripteur dupliqué dans rangstd. Ensuite on ferme le descripteur à l’indice 1. Puis on duplique le descripteur correspondant au fichier ouvert dans rangfd. Après les printf on ferme le descripteur fd ainsi que le rangfd pour libérer le descripteur à l’indice 1 dans le tableau. Finalement on reduplique le rangstd sauvegardé en amont. Celui-ci sera stocké dans l’indice 1 puisqu’il est disponible. Le dernier printf est alors écrit à l’écran.
+
+Exercice 3 :
+
+Les fonctions open(), read(), write(), close(), ... sont des appels systèmes qui accèdent au noyau du système. Elles utilisent la notion de descripteur de fichier. 
+Il existe une interface d'accès aux fichiers (les flux) qui sont des fonctions de la bibliothèque C : les fonctions fopen(), fread(), fwrite(), fclose(), fflush(),.... Elles utilisent la notion de flux (type FILE *).
+Ces fonctions appartenant à la bibliothèque C sont définies dans le standard ANSI C et sont plus portables que les appels systèmes unix.
+Il est possible d'obtenir le numéro de descripteur associé à un flux comme il est possible d'ouvrir un nouveau flux "autour" d'un descripteur donné.
+
+L’objectif de cet exercice est de lire les lignes dans un fichier d’entrée et de les récrire avec une modification dans le fichier de sortie. Pour ce faire on lit ligne par ligne jusqu’à la fin du fichier. Puis on on fait les modifications à la fin des lignes. On termine en fermant les deux fichiers.
