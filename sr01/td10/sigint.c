@@ -1,6 +1,8 @@
 #include <signal.h>
 #include <stdlib.h>
 #include <stdio.h>
+#include <sys/types.h>
+#include <unistd.h>
 
 int attente;
 
@@ -12,7 +14,7 @@ void routinesigint (int signum)
 }
 
 
-void main()
+int main()
 {
     attente=10;
     printf("%d\n", getpid());
